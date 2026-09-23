@@ -17,6 +17,18 @@ env:
   TOKENIZERS_PARALLELISM: "false"
 
 jobs:
+  dom-evidence:
+    name: optional Dom evidence and HTTP tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - run: pip install -e ".[serve]" pytest httpx
+      - run: python -m pytest tests/test_dom_adapter.py tests/test_dom_context.py tests/test_dom_requirements.py tests/test_serve.py -q
+
   feishu-benchmark:
     name: Chinese benchmark audit (no models or API)
     runs-on: ubuntu-latest

@@ -5,6 +5,11 @@
   </picture>
 </p>
 
+> **Dom evidence fork:** This branch adds an optional evidence adapter and
+> measured local HTTP benchmarks. See the [integration guide](docs/dom-evidence.md)
+> and [latency results](research/benchmarks/dom/README.md). The model weights and
+> default prediction API are unchanged. The upstream documentation follows.
+
 **Multilingual, non-autoregressive System 1 decision engine.** Typed decisions over 100+ languages in a single forward pass — 33 ms — trained with reinforcement learning against strictly proper scoring rules (RLCD), with a router that picks the right checkpoint per request.
 
 <div align="center">
