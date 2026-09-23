@@ -108,9 +108,12 @@ def build_router():
     return router
 
 
-def create_app(router: Optional[Any] = None):
+def create_app(router: Optional[Any] = None, *, evidence_agent: Optional[Any] = None):
     """Build the FastAPI app. Pass a Router to inject one (tests); otherwise one
-    is built from the environment (and preloaded) at app-creation time."""
+    is built from the environment (and preloaded) at app-creation time.
+    An explicit evidence_agent enables the optional /v1/dom/decide endpoint.
+    Both endpoints share the same inference queue and authorization check.
+    """
     import asyncio
     from concurrent.futures import ThreadPoolExecutor
 
@@ -175,6 +178,34 @@ def create_app(router: Optional[Any] = None):
             raise
         except Exception as e:  # noqa: BLE001 -- surface model/tokenizer errors as 422
             raise HTTPException(status_code=422, detail=str(e))
+
+    if evidence_agent is not None:
+        @app.post("/v1/dom/decide")
+        async def dom_decide(request: Request, authorization: Optional[str] = Header(default=None)):
+            nonlocal gate
+            import json
+            _check_auth(authorization)
+            raw = bytearray()
+            async for chunk in request.stream():
+                raw.extend(chunk)
+                if len(raw) > 4 * 1024 * 1024:
+                    raise HTTPException(status_code=413, detail="evidence request exceeds 4 MiB")
+            try:
+                body = json.loads(raw)
+            except (ValueError, UnicodeDecodeError):
+                raise HTTPException(status_code=400, detail="invalid JSON")
+            required = {"query", "documents", "choices"}
+            if (not isinstance(body, dict) or not required <= body.keys()
+                    or set(body) - required - {"insufficient_choice"}):
+                raise HTTPException(status_code=400, detail="expected query, documents, choices and optional insufficient_choice")
+            if gate is None:
+                gate = asyncio.Lock()
+            try:
+                async with gate:
+                    loop = asyncio.get_running_loop()
+                    return await loop.run_in_executor(pool, lambda: evidence_agent.predict(**body))
+            except (ValueError, TypeError) as error:
+                raise HTTPException(status_code=422, detail=str(error))
 
     return app
 

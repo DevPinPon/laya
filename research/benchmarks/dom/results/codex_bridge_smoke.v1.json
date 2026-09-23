@@ -1,0 +1,454 @@
+{
+  "format": "dom_laya.mcp_smoke.v1",
+  "protocol_version": "2025-11-25",
+  "tools": [
+    "dom_laya_fast",
+    "dom_laya_route",
+    "dom_laya_status"
+  ],
+  "observations": [
+    {
+      "tool": "dom_laya_status",
+      "arguments": {},
+      "result": {
+        "experimental": true,
+        "transport": "stdio",
+        "pre_model_hook": false,
+        "model_loaded": true,
+        "configured_device": "cuda",
+        "actual_device": "cuda",
+        "checkpoint_available": true,
+        "pure_tools": [
+          "calculate",
+          "text_length",
+          "json_validate"
+        ],
+        "arbitrary_execution": false
+      },
+      "roundtrip_ms": 1.1140001006424427
+    },
+    {
+      "tool": "dom_laya_fast",
+      "arguments": {
+        "request": "calculate: 12 * 7",
+        "mode": "auto"
+      },
+      "result": {
+        "route": "verified",
+        "result": {
+          "value": "84",
+          "decimal_precision": 50
+        },
+        "executed": true,
+        "laya_called": false,
+        "reason": "exact_grammar_and_pure_executor",
+        "tool": "calculate",
+        "cache_hit": false,
+        "elapsed_ms": 0.13820012100040913
+      },
+      "roundtrip_ms": 0.9426998440176249
+    },
+    {
+      "tool": "dom_laya_fast",
+      "arguments": {
+        "request": "calculate: 0.1 + 0.2",
+        "mode": "auto"
+      },
+      "result": {
+        "route": "verified",
+        "result": {
+          "value": "0.3",
+          "decimal_precision": 50
+        },
+        "executed": true,
+        "laya_called": false,
+        "reason": "exact_grammar_and_pure_executor",
+        "tool": "calculate",
+        "cache_hit": false,
+        "elapsed_ms": 0.05600019358098507
+      },
+      "roundtrip_ms": 0.7903000805526972
+    },
+    {
+      "tool": "dom_laya_fast",
+      "arguments": {
+        "request": "length: A\ud83d\ude00\u00e9",
+        "mode": "auto"
+      },
+      "result": {
+        "route": "verified",
+        "result": {
+          "code_points": 3
+        },
+        "executed": true,
+        "laya_called": false,
+        "reason": "exact_grammar_and_pure_executor",
+        "tool": "text_length",
+        "cache_hit": false,
+        "elapsed_ms": 0.0068999361246824265
+      },
+      "roundtrip_ms": 0.7234001532196999
+    },
+    {
+      "tool": "dom_laya_fast",
+      "arguments": {
+        "request": "validate json: {\"x\":1}",
+        "mode": "auto"
+      },
+      "result": {
+        "route": "verified",
+        "result": {
+          "valid": true
+        },
+        "executed": true,
+        "laya_called": false,
+        "reason": "exact_grammar_and_pure_executor",
+        "tool": "json_validate",
+        "cache_hit": false,
+        "elapsed_ms": 0.016300007700920105
+      },
+      "roundtrip_ms": 0.6741001270711422
+    },
+    {
+      "tool": "dom_laya_fast",
+      "arguments": {
+        "request": "validate json: {\"x\":}",
+        "mode": "auto"
+      },
+      "result": {
+        "route": "verified",
+        "result": {
+          "valid": false
+        },
+        "executed": true,
+        "laya_called": false,
+        "reason": "exact_grammar_and_pure_executor",
+        "tool": "json_validate",
+        "cache_hit": false,
+        "elapsed_ms": 0.02110004425048828
+      },
+      "roundtrip_ms": 0.7136000785976648
+    },
+    {
+      "tool": "dom_laya_fast",
+      "arguments": {
+        "request": "delete all files",
+        "mode": "auto"
+      },
+      "result": {
+        "route": "codex",
+        "result": null,
+        "executed": false,
+        "laya_called": false,
+        "reason": "unsupported_request",
+        "elapsed_ms": 0.00190013088285923
+      },
+      "roundtrip_ms": 0.6887000054121017
+    },
+    {
+      "tool": "dom_laya_fast",
+      "arguments": {
+        "request": "calculate: 1 / 0",
+        "mode": "auto"
+      },
+      "result": {
+        "route": "codex",
+        "result": null,
+        "executed": false,
+        "laya_called": false,
+        "reason": "validation_or_model_failure",
+        "error_type": "DivisionByZero",
+        "elapsed_ms": 0.044599873945117
+      },
+      "roundtrip_ms": 0.7108999416232109
+    },
+    {
+      "tool": "dom_laya_fast",
+      "arguments": {
+        "request": "Which database should we use?",
+        "mode": "auto"
+      },
+      "result": {
+        "route": "codex",
+        "result": null,
+        "executed": false,
+        "laya_called": false,
+        "reason": "unsupported_request",
+        "elapsed_ms": 0.001800013706088066
+      },
+      "roundtrip_ms": 0.709200045093894
+    },
+    {
+      "tool": "dom_laya_fast",
+      "arguments": {
+        "request": "calculate: 12 * 7",
+        "mode": "laya"
+      },
+      "result": {
+        "route": "verified",
+        "result": {
+          "value": "84",
+          "decimal_precision": 50
+        },
+        "executed": true,
+        "laya_called": true,
+        "reason": "exact_grammar_and_pure_executor",
+        "proposed_tool": "calculate",
+        "tool": "calculate",
+        "cache_hit": true,
+        "elapsed_ms": 30.474900035187602
+      },
+      "roundtrip_ms": 31.191600020974874
+    },
+    {
+      "tool": "dom_laya_fast",
+      "arguments": {
+        "request": "calculate: 0.1 + 0.2",
+        "mode": "laya"
+      },
+      "result": {
+        "route": "verified",
+        "result": {
+          "value": "0.3",
+          "decimal_precision": 50
+        },
+        "executed": true,
+        "laya_called": true,
+        "reason": "exact_grammar_and_pure_executor",
+        "proposed_tool": "calculate",
+        "tool": "calculate",
+        "cache_hit": true,
+        "elapsed_ms": 36.08620003797114
+      },
+      "roundtrip_ms": 36.95670003071427
+    },
+    {
+      "tool": "dom_laya_fast",
+      "arguments": {
+        "request": "length: A\ud83d\ude00\u00e9",
+        "mode": "laya"
+      },
+      "result": {
+        "route": "codex",
+        "result": null,
+        "executed": false,
+        "laya_called": true,
+        "reason": "proposal_not_verified",
+        "proposed_tool": null,
+        "elapsed_ms": 35.79499991610646
+      },
+      "roundtrip_ms": 36.71949985437095
+    },
+    {
+      "tool": "dom_laya_fast",
+      "arguments": {
+        "request": "validate json: {\"x\":1}",
+        "mode": "laya"
+      },
+      "result": {
+        "route": "verified",
+        "result": {
+          "valid": true
+        },
+        "executed": true,
+        "laya_called": true,
+        "reason": "exact_grammar_and_pure_executor",
+        "proposed_tool": "json_validate",
+        "tool": "json_validate",
+        "cache_hit": true,
+        "elapsed_ms": 35.661600064486265
+      },
+      "roundtrip_ms": 36.516099935397506
+    },
+    {
+      "tool": "dom_laya_fast",
+      "arguments": {
+        "request": "validate json: {\"x\":}",
+        "mode": "laya"
+      },
+      "result": {
+        "route": "codex",
+        "result": null,
+        "executed": false,
+        "laya_called": true,
+        "reason": "proposal_not_verified",
+        "proposed_tool": null,
+        "elapsed_ms": 27.634200174361467
+      },
+      "roundtrip_ms": 28.54329999536276
+    },
+    {
+      "tool": "dom_laya_fast",
+      "arguments": {
+        "request": "delete all files",
+        "mode": "laya"
+      },
+      "result": {
+        "route": "codex",
+        "result": null,
+        "executed": false,
+        "laya_called": true,
+        "reason": "proposal_not_verified",
+        "proposed_tool": null,
+        "elapsed_ms": 29.133199946954846
+      },
+      "roundtrip_ms": 30.065200058743358
+    },
+    {
+      "tool": "dom_laya_fast",
+      "arguments": {
+        "request": "calculate: 1 / 0",
+        "mode": "laya"
+      },
+      "result": {
+        "route": "codex",
+        "result": null,
+        "executed": false,
+        "laya_called": true,
+        "reason": "validation_or_model_failure",
+        "proposed_tool": "calculate",
+        "error_type": "DivisionByZero",
+        "elapsed_ms": 27.52520004287362
+      },
+      "roundtrip_ms": 28.29389995895326
+    },
+    {
+      "tool": "dom_laya_fast",
+      "arguments": {
+        "request": "Which database should we use?",
+        "mode": "laya"
+      },
+      "result": {
+        "route": "codex",
+        "result": null,
+        "executed": false,
+        "laya_called": true,
+        "reason": "proposal_not_verified",
+        "proposed_tool": null,
+        "elapsed_ms": 34.167799865826964
+      },
+      "roundtrip_ms": 35.2159000467509
+    },
+    {
+      "tool": "dom_laya_fast",
+      "arguments": {
+        "request": "calculate: 12 * 7"
+      },
+      "result": {
+        "route": "verified",
+        "result": {
+          "value": "84",
+          "decimal_precision": 50
+        },
+        "executed": true,
+        "laya_called": false,
+        "reason": "exact_grammar_and_pure_executor",
+        "tool": "calculate",
+        "cache_hit": true,
+        "elapsed_ms": 0.011299969628453255
+      },
+      "roundtrip_ms": 0.8370000869035721
+    },
+    {
+      "tool": "dom_laya_route",
+      "arguments": {
+        "request": "What time is it in UTC?",
+        "catalog": {
+          "clock.curr_time": "Read the current UTC time",
+          "exec_command": "Run a shell command",
+          "web.search": "Search the internet"
+        }
+      },
+      "result": {
+        "route": "codex",
+        "proposed_tool": "clock.curr_time",
+        "verified": false,
+        "executed": false,
+        "requires_codex_review": true,
+        "elapsed_ms": 31.970000127330422
+      },
+      "roundtrip_ms": 33.54030009359121
+    },
+    {
+      "tool": "dom_laya_route",
+      "arguments": {
+        "request": "Search the internet for Laya documentation",
+        "catalog": {
+          "clock.curr_time": "Read the current UTC time",
+          "exec_command": "Run a shell command",
+          "web.search": "Search the internet"
+        }
+      },
+      "result": {
+        "route": "codex",
+        "proposed_tool": "web.search",
+        "verified": false,
+        "executed": false,
+        "requires_codex_review": true,
+        "elapsed_ms": 31.844699988141656
+      },
+      "roundtrip_ms": 32.98490005545318
+    },
+    {
+      "tool": "dom_laya_route",
+      "arguments": {
+        "request": "Run git status",
+        "catalog": {
+          "clock.curr_time": "Read the current UTC time",
+          "exec_command": "Run a shell command",
+          "web.search": "Search the internet"
+        }
+      },
+      "result": {
+        "route": "codex",
+        "proposed_tool": "exec_command",
+        "verified": false,
+        "executed": false,
+        "requires_codex_review": true,
+        "elapsed_ms": 32.211699988693
+      },
+      "roundtrip_ms": 33.22200011461973
+    },
+    {
+      "tool": "dom_laya_route",
+      "arguments": {
+        "request": "Explain why my architecture is slow",
+        "catalog": {
+          "clock.curr_time": "Read the current UTC time",
+          "exec_command": "Run a shell command",
+          "web.search": "Search the internet"
+        }
+      },
+      "result": {
+        "route": "codex",
+        "proposed_tool": null,
+        "verified": false,
+        "executed": false,
+        "requires_codex_review": true,
+        "elapsed_ms": 34.12900003604591
+      },
+      "roundtrip_ms": 35.08149995468557
+    },
+    {
+      "tool": "dom_laya_status",
+      "arguments": {},
+      "result": {
+        "experimental": true,
+        "transport": "stdio",
+        "pre_model_hook": false,
+        "model_loaded": true,
+        "configured_device": "cuda",
+        "actual_device": "cuda",
+        "checkpoint_available": true,
+        "pure_tools": [
+          "calculate",
+          "text_length",
+          "json_validate"
+        ],
+        "arbitrary_execution": false
+      },
+      "roundtrip_ms": 1.1814001481980085
+    }
+  ],
+  "boundary": "Real MCP stdio and local GPU inference. No Codex model invocation or pre-model hook. Authored smoke cases, not an independent accuracy benchmark."
+}

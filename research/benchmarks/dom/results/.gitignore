@@ -1,0 +1,2 @@
+# Local process logs include host paths; measurements and frozen plans are JSON.
+*.server.log

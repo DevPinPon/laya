@@ -6,3 +6,7 @@
 research/benchmarks/feishu_zh/SOURCE.json text eol=lf
 research/benchmarks/feishu_zh/data/** text eol=lf
 research/benchmarks/feishu_zh/results/** text eol=lf
+
+# Keep raw synthetic fixtures/results reviewable while collapsing generated diffs.
+research/benchmarks/dom/results/*.json linguist-generated=true
+research/benchmarks/dom/requirements_cases.v1.json linguist-generated=true

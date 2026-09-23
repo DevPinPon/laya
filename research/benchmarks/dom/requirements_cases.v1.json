@@ -1,0 +1,6373 @@
+{
+  "format": "dom.laya_requirements_cases.v1",
+  "seed": 23092319,
+  "provenance": "New synthetic subjects and worlds, same six registered question/record grammars. Implementation and cases share an author; measures schema conformance, not independent generalization.",
+  "label_rule": "Consistent required facts establish support; missing, conflicting or explicitly unknown requirements mean insufficient evidence. One false AND premise is decisive. Unsupported syntax is answerable but outside checker coverage.",
+  "cases": [
+    {
+      "id": "latest_state-0-conflict",
+      "cluster_id": "latest_state-0",
+      "family": "latest_state",
+      "scenario": "conflict",
+      "query": "What is the most recent recorded state of service OBJ-9140? Compare observation dates.",
+      "documents": [
+        {
+          "id": "r99ec591b7b8e",
+          "text": "Component NOISE-9140-1 carries a Violet label."
+        },
+        {
+          "id": "rae8d86df76dc",
+          "text": "Component OBJ-9140-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r564119dc5b8a",
+          "text": "Component NOISE-9140-0 carries a Violet label."
+        },
+        {
+          "id": "rff83a131992a",
+          "text": "2026-09-07: service OBJ-9140 was enabled."
+        },
+        {
+          "id": "rf25138bf01e4",
+          "text": "Component NOISE-9140-5 carries a Violet label."
+        },
+        {
+          "id": "rf36c82174e45",
+          "text": "Component NOISE-9140-4 carries a Violet label."
+        },
+        {
+          "id": "r317c20255402",
+          "text": "2026-09-07: service OBJ-9140 was disabled."
+        },
+        {
+          "id": "r1d049a3a8c19",
+          "text": "2026-04-03: service OBJ-9140 was disabled."
+        },
+        {
+          "id": "r1f6a5081366a",
+          "text": "Component NOISE-9140-3 carries a Violet label."
+        },
+        {
+          "id": "r8c3d95ec7ff8",
+          "text": "Component NOISE-9140-7 carries a Violet label."
+        },
+        {
+          "id": "rb1f4927e4161",
+          "text": "Component NOISE-9140-6 carries a Violet label."
+        },
+        {
+          "id": "r67347f06b4c7",
+          "text": "Component NOISE-9140-2 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Enabled",
+        "b": "Disabled",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "storage-1-unsupported_query",
+      "cluster_id": "storage-1",
+      "family": "storage",
+      "scenario": "unsupported_query",
+      "query": "Please answer: In which cabinet is component UNIT_9101_K stored?",
+      "documents": [
+        {
+          "id": "rf498df425a9e",
+          "text": "Component NOISE-9101-3 carries a Violet label."
+        },
+        {
+          "id": "rf66bc142d0f9",
+          "text": "Component NOISE-9101-0 carries a Violet label."
+        },
+        {
+          "id": "r01f2bbf02c0f",
+          "text": "Component NOISE-9101-4 carries a Violet label."
+        },
+        {
+          "id": "rff61ea6745a4",
+          "text": "Component NOISE-9101-7 carries a Violet label."
+        },
+        {
+          "id": "r9f213b858e92",
+          "text": "Component UNIT_9101_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rd8d36be357b8",
+          "text": "Component NOISE-9101-2 carries a Violet label."
+        },
+        {
+          "id": "r9d1701cd2f35",
+          "text": "Component NOISE-9101-1 carries a Violet label."
+        },
+        {
+          "id": "r32406feb9124",
+          "text": "Component NOISE-9101-5 carries a Violet label."
+        },
+        {
+          "id": "re1dfec302ef1",
+          "text": "Component UNIT_9101_K is stored in the Silver cabinet."
+        },
+        {
+          "id": "r6e755c911b30",
+          "text": "Component NOISE-9101-6 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Copper cabinet",
+        "b": "Silver cabinet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "release_rule-0-partial",
+      "cluster_id": "release_rule-0",
+      "family": "release_rule",
+      "scenario": "partial",
+      "query": "May build OBJ-9130 be published? Publication is allowed exactly when its tests passed AND its review is approved. Either failed condition forbids publication.",
+      "documents": [
+        {
+          "id": "ra1be4ed6bdbc",
+          "text": "Component NOISE-9130-5 carries a Violet label."
+        },
+        {
+          "id": "r05447843fd29",
+          "text": "Component NOISE-9130-1 carries a Violet label."
+        },
+        {
+          "id": "rb4fcd05bf745",
+          "text": "Component NOISE-9130-2 carries a Violet label."
+        },
+        {
+          "id": "r2814cbbdad34",
+          "text": "Component OBJ-9130-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r849adefea147",
+          "text": "Component NOISE-9130-4 carries a Violet label."
+        },
+        {
+          "id": "rbce3170c2852",
+          "text": "Component NOISE-9130-3 carries a Violet label."
+        },
+        {
+          "id": "r0fc69c675c93",
+          "text": "Component NOISE-9130-6 carries a Violet label."
+        },
+        {
+          "id": "re94e9edab9cf",
+          "text": "Build OBJ-9130: tests passed."
+        },
+        {
+          "id": "rf4409bc866cf",
+          "text": "Component NOISE-9130-7 carries a Violet label."
+        },
+        {
+          "id": "r24bb93bb24f4",
+          "text": "Component NOISE-9130-0 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Publication allowed",
+        "b": "Publication forbidden",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "latest_state-1-unsupported_query",
+      "cluster_id": "latest_state-1",
+      "family": "latest_state",
+      "scenario": "unsupported_query",
+      "query": "Please answer: What is the most recent recorded state of service UNIT_9141_K? Compare observation dates.",
+      "documents": [
+        {
+          "id": "rdbb68bc65a02",
+          "text": "Component NOISE-9141-4 carries a Violet label."
+        },
+        {
+          "id": "r3e1b9b358546",
+          "text": "2026-09-07: service UNIT_9141_K was disabled."
+        },
+        {
+          "id": "re37455372c58",
+          "text": "Component UNIT_9141_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rfb2bef792646",
+          "text": "Component NOISE-9141-2 carries a Violet label."
+        },
+        {
+          "id": "r14465ba400f6",
+          "text": "Component NOISE-9141-7 carries a Violet label."
+        },
+        {
+          "id": "rbf27e56c16d9",
+          "text": "Component NOISE-9141-5 carries a Violet label."
+        },
+        {
+          "id": "rc06272a2c282",
+          "text": "Component NOISE-9141-0 carries a Violet label."
+        },
+        {
+          "id": "r829fe367439a",
+          "text": "2026-04-03: service UNIT_9141_K was enabled."
+        },
+        {
+          "id": "rc6364c58a586",
+          "text": "Component NOISE-9141-3 carries a Violet label."
+        },
+        {
+          "id": "r5dfb5076586f",
+          "text": "Component NOISE-9141-6 carries a Violet label."
+        },
+        {
+          "id": "r1254a8124f41",
+          "text": "Component NOISE-9141-1 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Enabled",
+        "b": "Disabled",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "latest_state-0-unknown_value",
+      "cluster_id": "latest_state-0",
+      "family": "latest_state",
+      "scenario": "unknown_value",
+      "query": "What is the most recent recorded state of service OBJ-9140? Compare observation dates.",
+      "documents": [
+        {
+          "id": "r99ec591b7b8e",
+          "text": "Component NOISE-9140-1 carries a Violet label."
+        },
+        {
+          "id": "rae8d86df76dc",
+          "text": "Component OBJ-9140-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r564119dc5b8a",
+          "text": "Component NOISE-9140-0 carries a Violet label."
+        },
+        {
+          "id": "rff83a131992a",
+          "text": "2026-09-07: service OBJ-9140 was unknown."
+        },
+        {
+          "id": "rf25138bf01e4",
+          "text": "Component NOISE-9140-5 carries a Violet label."
+        },
+        {
+          "id": "rf36c82174e45",
+          "text": "Component NOISE-9140-4 carries a Violet label."
+        },
+        {
+          "id": "r1d049a3a8c19",
+          "text": "2026-04-03: service OBJ-9140 was disabled."
+        },
+        {
+          "id": "r1f6a5081366a",
+          "text": "Component NOISE-9140-3 carries a Violet label."
+        },
+        {
+          "id": "r8c3d95ec7ff8",
+          "text": "Component NOISE-9140-7 carries a Violet label."
+        },
+        {
+          "id": "rb1f4927e4161",
+          "text": "Component NOISE-9140-6 carries a Violet label."
+        },
+        {
+          "id": "r67347f06b4c7",
+          "text": "Component NOISE-9140-2 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Enabled",
+        "b": "Disabled",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "label-1-unsupported_records",
+      "cluster_id": "label-1",
+      "family": "label",
+      "scenario": "unsupported_records",
+      "query": "Which color label belongs to component UNIT_9151_K? Match its exact identifier.",
+      "documents": [
+        {
+          "id": "r6616dc753cba",
+          "text": "Component NOISE-9151-0 carries a Violet label."
+        },
+        {
+          "id": "rc055075f3a7c",
+          "text": "Component NOISE-9151-4 carries a Violet label."
+        },
+        {
+          "id": "r059d32693a06",
+          "text": "Component NOISE-9151-2 carries a Violet label."
+        },
+        {
+          "id": "rb7491ca5b699",
+          "text": "Component UNIT_9151_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rf657e9184924",
+          "text": "Component NOISE-9151-6 carries a Violet label."
+        },
+        {
+          "id": "r519004cf81d2",
+          "text": "Recorded observation: Component UNIT_9151_K carries a Violet label."
+        },
+        {
+          "id": "r93209bb93e5d",
+          "text": "Component NOISE-9151-1 carries a Violet label."
+        },
+        {
+          "id": "r52698ed8c171",
+          "text": "Component NOISE-9151-3 carries a Violet label."
+        },
+        {
+          "id": "rf9ba92502bac",
+          "text": "Component NOISE-9151-7 carries a Violet label."
+        },
+        {
+          "id": "r6f98de3814bf",
+          "text": "Component NOISE-9151-5 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Orange",
+        "b": "Violet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "latest_state-0-absent",
+      "cluster_id": "latest_state-0",
+      "family": "latest_state",
+      "scenario": "absent",
+      "query": "What is the most recent recorded state of service OBJ-9140? Compare observation dates.",
+      "documents": [
+        {
+          "id": "r99ec591b7b8e",
+          "text": "Component NOISE-9140-1 carries a Violet label."
+        },
+        {
+          "id": "rae8d86df76dc",
+          "text": "Component OBJ-9140-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r564119dc5b8a",
+          "text": "Component NOISE-9140-0 carries a Violet label."
+        },
+        {
+          "id": "rf25138bf01e4",
+          "text": "Component NOISE-9140-5 carries a Violet label."
+        },
+        {
+          "id": "rf36c82174e45",
+          "text": "Component NOISE-9140-4 carries a Violet label."
+        },
+        {
+          "id": "r1f6a5081366a",
+          "text": "Component NOISE-9140-3 carries a Violet label."
+        },
+        {
+          "id": "r8c3d95ec7ff8",
+          "text": "Component NOISE-9140-7 carries a Violet label."
+        },
+        {
+          "id": "rb1f4927e4161",
+          "text": "Component NOISE-9140-6 carries a Violet label."
+        },
+        {
+          "id": "r67347f06b4c7",
+          "text": "Component NOISE-9140-2 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Enabled",
+        "b": "Disabled",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "service_region-1-unknown_value",
+      "cluster_id": "service_region-1",
+      "family": "service_region",
+      "scenario": "unknown_value",
+      "query": "Which region contains the cluster hosting service UNIT_9111_K?",
+      "documents": [
+        {
+          "id": "r550c7566552c",
+          "text": "Component NOISE-9111-4 carries a Violet label."
+        },
+        {
+          "id": "r099f5cfd4d66",
+          "text": "Component NOISE-9111-1 carries a Violet label."
+        },
+        {
+          "id": "r0edb3dd4d0c8",
+          "text": "Component NOISE-9111-0 carries a Violet label."
+        },
+        {
+          "id": "r010c6e8901c2",
+          "text": "Component NOISE-9111-5 carries a Violet label."
+        },
+        {
+          "id": "rc4b1193fa2a4",
+          "text": "Component NOISE-9111-2 carries a Violet label."
+        },
+        {
+          "id": "r159973a55246",
+          "text": "Component NOISE-9111-6 carries a Violet label."
+        },
+        {
+          "id": "r5cbdf256199f",
+          "text": "Component NOISE-9111-7 carries a Violet label."
+        },
+        {
+          "id": "r1ad8ce9483f5",
+          "text": "Component NOISE-9111-3 carries a Violet label."
+        },
+        {
+          "id": "r23d5fb61ef2f",
+          "text": "Cluster CL-9111 is located in the unknown region."
+        },
+        {
+          "id": "r6bfc447bdb41",
+          "text": "Service UNIT_9111_K runs on cluster CL-9111."
+        },
+        {
+          "id": "r946162bec0cb",
+          "text": "Component UNIT_9111_K-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Coastal",
+        "b": "Inland",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "latest_state-0-unsupported_query",
+      "cluster_id": "latest_state-0",
+      "family": "latest_state",
+      "scenario": "unsupported_query",
+      "query": "Please answer: What is the most recent recorded state of service OBJ-9140? Compare observation dates.",
+      "documents": [
+        {
+          "id": "r99ec591b7b8e",
+          "text": "Component NOISE-9140-1 carries a Violet label."
+        },
+        {
+          "id": "rae8d86df76dc",
+          "text": "Component OBJ-9140-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r564119dc5b8a",
+          "text": "Component NOISE-9140-0 carries a Violet label."
+        },
+        {
+          "id": "rff83a131992a",
+          "text": "2026-09-07: service OBJ-9140 was enabled."
+        },
+        {
+          "id": "rf25138bf01e4",
+          "text": "Component NOISE-9140-5 carries a Violet label."
+        },
+        {
+          "id": "rf36c82174e45",
+          "text": "Component NOISE-9140-4 carries a Violet label."
+        },
+        {
+          "id": "r1d049a3a8c19",
+          "text": "2026-04-03: service OBJ-9140 was disabled."
+        },
+        {
+          "id": "r1f6a5081366a",
+          "text": "Component NOISE-9140-3 carries a Violet label."
+        },
+        {
+          "id": "r8c3d95ec7ff8",
+          "text": "Component NOISE-9140-7 carries a Violet label."
+        },
+        {
+          "id": "rb1f4927e4161",
+          "text": "Component NOISE-9140-6 carries a Violet label."
+        },
+        {
+          "id": "r67347f06b4c7",
+          "text": "Component NOISE-9140-2 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Enabled",
+        "b": "Disabled",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "storage-0-decisive_or_distractor",
+      "cluster_id": "storage-0",
+      "family": "storage",
+      "scenario": "decisive_or_distractor",
+      "query": "In which cabinet is component OBJ-9100 stored?",
+      "documents": [
+        {
+          "id": "r301f365e41cd",
+          "text": "Inventory note: OBJ-9100 is listed; purchase order archived."
+        },
+        {
+          "id": "r52f576331436",
+          "text": "Component NOISE-9100-1 carries a Violet label."
+        },
+        {
+          "id": "r6cb63278a49e",
+          "text": "Component NOISE-9100-2 carries a Violet label."
+        },
+        {
+          "id": "rf601ba8c4108",
+          "text": "Component NOISE-9100-3 carries a Violet label."
+        },
+        {
+          "id": "rf6a0ff692ec6",
+          "text": "Component OBJ-9100-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r3208e3d553d7",
+          "text": "Component NOISE-9100-0 carries a Violet label."
+        },
+        {
+          "id": "r574341971347",
+          "text": "Component NOISE-9100-6 carries a Violet label."
+        },
+        {
+          "id": "r07b76c75fe75",
+          "text": "Component NOISE-9100-4 carries a Violet label."
+        },
+        {
+          "id": "r20f0626efc33",
+          "text": "Component NOISE-9100-5 carries a Violet label."
+        },
+        {
+          "id": "r385af868723e",
+          "text": "Component NOISE-9100-7 carries a Violet label."
+        },
+        {
+          "id": "reb662e6b1f54",
+          "text": "Component OBJ-9100 is stored in the Copper cabinet."
+        }
+      ],
+      "options": {
+        "a": "Copper cabinet",
+        "b": "Silver cabinet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "dependency_chain-0-decisive_or_distractor",
+      "cluster_id": "dependency_chain-0",
+      "family": "dependency_chain",
+      "scenario": "decisive_or_distractor",
+      "query": "Which zone contains the machine hosting the release train for artifact OBJ-9120?",
+      "documents": [
+        {
+          "id": "rc6413b903cde",
+          "text": "Artifact OBJ-9120 belongs to release train RT-9120."
+        },
+        {
+          "id": "rd61dfb568a56",
+          "text": "Component NOISE-9120-1 carries a Violet label."
+        },
+        {
+          "id": "rfc1818f9a8ef",
+          "text": "Machine VM-9120 is in the Amber zone."
+        },
+        {
+          "id": "r9bdd939814a5",
+          "text": "Component NOISE-9120-5 carries a Violet label."
+        },
+        {
+          "id": "r87c211fb4050",
+          "text": "Component NOISE-9120-6 carries a Violet label."
+        },
+        {
+          "id": "r05bc0e4f14b0",
+          "text": "Inventory note: OBJ-9120 is listed; purchase order archived."
+        },
+        {
+          "id": "rd1a6989b4450",
+          "text": "Component NOISE-9120-7 carries a Violet label."
+        },
+        {
+          "id": "rf246a83b7d15",
+          "text": "Release train RT-9120 is hosted by machine VM-9120."
+        },
+        {
+          "id": "r821887a3ee3e",
+          "text": "Component OBJ-9120-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rf2cac4b075a0",
+          "text": "Component NOISE-9120-3 carries a Violet label."
+        },
+        {
+          "id": "rb9f2b1c56153",
+          "text": "Component NOISE-9120-2 carries a Violet label."
+        },
+        {
+          "id": "r315507a7bc28",
+          "text": "Component NOISE-9120-0 carries a Violet label."
+        },
+        {
+          "id": "r38ff7a580649",
+          "text": "Component NOISE-9120-4 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Amber zone",
+        "b": "Indigo zone",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "label-1-absent",
+      "cluster_id": "label-1",
+      "family": "label",
+      "scenario": "absent",
+      "query": "Which color label belongs to component UNIT_9151_K? Match its exact identifier.",
+      "documents": [
+        {
+          "id": "r6616dc753cba",
+          "text": "Component NOISE-9151-0 carries a Violet label."
+        },
+        {
+          "id": "rc055075f3a7c",
+          "text": "Component NOISE-9151-4 carries a Violet label."
+        },
+        {
+          "id": "r059d32693a06",
+          "text": "Component NOISE-9151-2 carries a Violet label."
+        },
+        {
+          "id": "rb7491ca5b699",
+          "text": "Component UNIT_9151_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rf657e9184924",
+          "text": "Component NOISE-9151-6 carries a Violet label."
+        },
+        {
+          "id": "r93209bb93e5d",
+          "text": "Component NOISE-9151-1 carries a Violet label."
+        },
+        {
+          "id": "r52698ed8c171",
+          "text": "Component NOISE-9151-3 carries a Violet label."
+        },
+        {
+          "id": "rf9ba92502bac",
+          "text": "Component NOISE-9151-7 carries a Violet label."
+        },
+        {
+          "id": "r6f98de3814bf",
+          "text": "Component NOISE-9151-5 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Orange",
+        "b": "Violet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "release_rule-0-conflict",
+      "cluster_id": "release_rule-0",
+      "family": "release_rule",
+      "scenario": "conflict",
+      "query": "May build OBJ-9130 be published? Publication is allowed exactly when its tests passed AND its review is approved. Either failed condition forbids publication.",
+      "documents": [
+        {
+          "id": "ra1be4ed6bdbc",
+          "text": "Component NOISE-9130-5 carries a Violet label."
+        },
+        {
+          "id": "r05447843fd29",
+          "text": "Component NOISE-9130-1 carries a Violet label."
+        },
+        {
+          "id": "r8f2292f25a9d",
+          "text": "Build OBJ-9130: review is approved."
+        },
+        {
+          "id": "rb4fcd05bf745",
+          "text": "Component NOISE-9130-2 carries a Violet label."
+        },
+        {
+          "id": "r2814cbbdad34",
+          "text": "Component OBJ-9130-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r849adefea147",
+          "text": "Component NOISE-9130-4 carries a Violet label."
+        },
+        {
+          "id": "rbce3170c2852",
+          "text": "Component NOISE-9130-3 carries a Violet label."
+        },
+        {
+          "id": "r05d7a0985453",
+          "text": "Build OBJ-9130: review is not approved."
+        },
+        {
+          "id": "r0fc69c675c93",
+          "text": "Component NOISE-9130-6 carries a Violet label."
+        },
+        {
+          "id": "re94e9edab9cf",
+          "text": "Build OBJ-9130: tests passed."
+        },
+        {
+          "id": "rf4409bc866cf",
+          "text": "Component NOISE-9130-7 carries a Violet label."
+        },
+        {
+          "id": "r24bb93bb24f4",
+          "text": "Component NOISE-9130-0 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Publication allowed",
+        "b": "Publication forbidden",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "latest_state-1-complete_a",
+      "cluster_id": "latest_state-1",
+      "family": "latest_state",
+      "scenario": "complete_a",
+      "query": "What is the most recent recorded state of service UNIT_9141_K? Compare observation dates.",
+      "documents": [
+        {
+          "id": "rdbb68bc65a02",
+          "text": "Component NOISE-9141-4 carries a Violet label."
+        },
+        {
+          "id": "r3e1b9b358546",
+          "text": "2026-09-07: service UNIT_9141_K was enabled."
+        },
+        {
+          "id": "re37455372c58",
+          "text": "Component UNIT_9141_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rfb2bef792646",
+          "text": "Component NOISE-9141-2 carries a Violet label."
+        },
+        {
+          "id": "r14465ba400f6",
+          "text": "Component NOISE-9141-7 carries a Violet label."
+        },
+        {
+          "id": "rbf27e56c16d9",
+          "text": "Component NOISE-9141-5 carries a Violet label."
+        },
+        {
+          "id": "rc06272a2c282",
+          "text": "Component NOISE-9141-0 carries a Violet label."
+        },
+        {
+          "id": "r829fe367439a",
+          "text": "2026-04-03: service UNIT_9141_K was disabled."
+        },
+        {
+          "id": "rc6364c58a586",
+          "text": "Component NOISE-9141-3 carries a Violet label."
+        },
+        {
+          "id": "r5dfb5076586f",
+          "text": "Component NOISE-9141-6 carries a Violet label."
+        },
+        {
+          "id": "r1254a8124f41",
+          "text": "Component NOISE-9141-1 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Enabled",
+        "b": "Disabled",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "service_region-0-conflict",
+      "cluster_id": "service_region-0",
+      "family": "service_region",
+      "scenario": "conflict",
+      "query": "Which region contains the cluster hosting service OBJ-9110?",
+      "documents": [
+        {
+          "id": "r9dea7a03b4aa",
+          "text": "Cluster CL-9110 is located in the Inland region."
+        },
+        {
+          "id": "r7f53f0c9c3b8",
+          "text": "Cluster CL-9110 is located in the Coastal region."
+        },
+        {
+          "id": "r7f1dcbe40918",
+          "text": "Component NOISE-9110-5 carries a Violet label."
+        },
+        {
+          "id": "r277663bb1919",
+          "text": "Component NOISE-9110-3 carries a Violet label."
+        },
+        {
+          "id": "r053081ed2f22",
+          "text": "Component NOISE-9110-4 carries a Violet label."
+        },
+        {
+          "id": "rff81b6012618",
+          "text": "Component NOISE-9110-1 carries a Violet label."
+        },
+        {
+          "id": "r88074eaac823",
+          "text": "Component NOISE-9110-0 carries a Violet label."
+        },
+        {
+          "id": "rdc073132d9b4",
+          "text": "Component NOISE-9110-7 carries a Violet label."
+        },
+        {
+          "id": "r1d3eb4d1c210",
+          "text": "Component NOISE-9110-2 carries a Violet label."
+        },
+        {
+          "id": "r9ba7051639e8",
+          "text": "Component NOISE-9110-6 carries a Violet label."
+        },
+        {
+          "id": "r8d3790b53ac6",
+          "text": "Service OBJ-9110 runs on cluster CL-9110."
+        },
+        {
+          "id": "r4ddb50b47ee4",
+          "text": "Component OBJ-9110-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Coastal",
+        "b": "Inland",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "service_region-1-decisive_or_distractor",
+      "cluster_id": "service_region-1",
+      "family": "service_region",
+      "scenario": "decisive_or_distractor",
+      "query": "Which region contains the cluster hosting service UNIT_9111_K?",
+      "documents": [
+        {
+          "id": "r550c7566552c",
+          "text": "Component NOISE-9111-4 carries a Violet label."
+        },
+        {
+          "id": "r099f5cfd4d66",
+          "text": "Component NOISE-9111-1 carries a Violet label."
+        },
+        {
+          "id": "r0edb3dd4d0c8",
+          "text": "Component NOISE-9111-0 carries a Violet label."
+        },
+        {
+          "id": "r010c6e8901c2",
+          "text": "Component NOISE-9111-5 carries a Violet label."
+        },
+        {
+          "id": "rc4b1193fa2a4",
+          "text": "Component NOISE-9111-2 carries a Violet label."
+        },
+        {
+          "id": "r159973a55246",
+          "text": "Component NOISE-9111-6 carries a Violet label."
+        },
+        {
+          "id": "r2a4834cb0f77",
+          "text": "Inventory note: UNIT_9111_K is listed; purchase order archived."
+        },
+        {
+          "id": "r5cbdf256199f",
+          "text": "Component NOISE-9111-7 carries a Violet label."
+        },
+        {
+          "id": "r1ad8ce9483f5",
+          "text": "Component NOISE-9111-3 carries a Violet label."
+        },
+        {
+          "id": "r23d5fb61ef2f",
+          "text": "Cluster CL-9111 is located in the Inland region."
+        },
+        {
+          "id": "r6bfc447bdb41",
+          "text": "Service UNIT_9111_K runs on cluster CL-9111."
+        },
+        {
+          "id": "r946162bec0cb",
+          "text": "Component UNIT_9111_K-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Coastal",
+        "b": "Inland",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "label-0-unsupported_query",
+      "cluster_id": "label-0",
+      "family": "label",
+      "scenario": "unsupported_query",
+      "query": "Please answer: Which color label belongs to component OBJ-9150? Match its exact identifier.",
+      "documents": [
+        {
+          "id": "r2b663b4d44f5",
+          "text": "Component NOISE-9150-7 carries a Violet label."
+        },
+        {
+          "id": "r2d129344d240",
+          "text": "Component NOISE-9150-4 carries a Violet label."
+        },
+        {
+          "id": "r8602aa961e6e",
+          "text": "Component OBJ-9150-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r95e7e27205c6",
+          "text": "Component NOISE-9150-2 carries a Violet label."
+        },
+        {
+          "id": "r353ac8e6149c",
+          "text": "Component NOISE-9150-5 carries a Violet label."
+        },
+        {
+          "id": "r16339fcd007a",
+          "text": "Component NOISE-9150-6 carries a Violet label."
+        },
+        {
+          "id": "r06bd810fd14a",
+          "text": "Component OBJ-9150 carries a Orange label."
+        },
+        {
+          "id": "r42ddc8933b94",
+          "text": "Component NOISE-9150-3 carries a Violet label."
+        },
+        {
+          "id": "rc65671f60117",
+          "text": "Component NOISE-9150-0 carries a Violet label."
+        },
+        {
+          "id": "rc431876dafb4",
+          "text": "Component NOISE-9150-1 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Orange",
+        "b": "Violet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "dependency_chain-1-decisive_or_distractor",
+      "cluster_id": "dependency_chain-1",
+      "family": "dependency_chain",
+      "scenario": "decisive_or_distractor",
+      "query": "Which zone contains the machine hosting the release train for artifact UNIT_9121_K?",
+      "documents": [
+        {
+          "id": "r2dc2b3876cae",
+          "text": "Component NOISE-9121-2 carries a Violet label."
+        },
+        {
+          "id": "r97742fa93fa6",
+          "text": "Component NOISE-9121-3 carries a Violet label."
+        },
+        {
+          "id": "r0610056127d2",
+          "text": "Release train RT-9121 is hosted by machine VM-9121."
+        },
+        {
+          "id": "rd61407e11e40",
+          "text": "Component NOISE-9121-1 carries a Violet label."
+        },
+        {
+          "id": "re2406b454b9b",
+          "text": "Component NOISE-9121-6 carries a Violet label."
+        },
+        {
+          "id": "rb83efb6ffd85",
+          "text": "Component NOISE-9121-0 carries a Violet label."
+        },
+        {
+          "id": "r2c990cac3110",
+          "text": "Artifact UNIT_9121_K belongs to release train RT-9121."
+        },
+        {
+          "id": "r9e52d7db7138",
+          "text": "Inventory note: UNIT_9121_K is listed; purchase order archived."
+        },
+        {
+          "id": "raa4d4881d0b6",
+          "text": "Component NOISE-9121-5 carries a Violet label."
+        },
+        {
+          "id": "r1e8044685eb5",
+          "text": "Machine VM-9121 is in the Indigo zone."
+        },
+        {
+          "id": "r72ac66405405",
+          "text": "Component NOISE-9121-7 carries a Violet label."
+        },
+        {
+          "id": "r44587b45307b",
+          "text": "Component NOISE-9121-4 carries a Violet label."
+        },
+        {
+          "id": "r584a81e13ec8",
+          "text": "Component UNIT_9121_K-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Amber zone",
+        "b": "Indigo zone",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "service_region-0-unsupported_query",
+      "cluster_id": "service_region-0",
+      "family": "service_region",
+      "scenario": "unsupported_query",
+      "query": "Please answer: Which region contains the cluster hosting service OBJ-9110?",
+      "documents": [
+        {
+          "id": "r7f53f0c9c3b8",
+          "text": "Cluster CL-9110 is located in the Coastal region."
+        },
+        {
+          "id": "r7f1dcbe40918",
+          "text": "Component NOISE-9110-5 carries a Violet label."
+        },
+        {
+          "id": "r277663bb1919",
+          "text": "Component NOISE-9110-3 carries a Violet label."
+        },
+        {
+          "id": "r053081ed2f22",
+          "text": "Component NOISE-9110-4 carries a Violet label."
+        },
+        {
+          "id": "rff81b6012618",
+          "text": "Component NOISE-9110-1 carries a Violet label."
+        },
+        {
+          "id": "r88074eaac823",
+          "text": "Component NOISE-9110-0 carries a Violet label."
+        },
+        {
+          "id": "rdc073132d9b4",
+          "text": "Component NOISE-9110-7 carries a Violet label."
+        },
+        {
+          "id": "r1d3eb4d1c210",
+          "text": "Component NOISE-9110-2 carries a Violet label."
+        },
+        {
+          "id": "r9ba7051639e8",
+          "text": "Component NOISE-9110-6 carries a Violet label."
+        },
+        {
+          "id": "r8d3790b53ac6",
+          "text": "Service OBJ-9110 runs on cluster CL-9110."
+        },
+        {
+          "id": "r4ddb50b47ee4",
+          "text": "Component OBJ-9110-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Coastal",
+        "b": "Inland",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "storage-1-unknown_value",
+      "cluster_id": "storage-1",
+      "family": "storage",
+      "scenario": "unknown_value",
+      "query": "In which cabinet is component UNIT_9101_K stored?",
+      "documents": [
+        {
+          "id": "rf498df425a9e",
+          "text": "Component NOISE-9101-3 carries a Violet label."
+        },
+        {
+          "id": "rf66bc142d0f9",
+          "text": "Component NOISE-9101-0 carries a Violet label."
+        },
+        {
+          "id": "r01f2bbf02c0f",
+          "text": "Component NOISE-9101-4 carries a Violet label."
+        },
+        {
+          "id": "rff61ea6745a4",
+          "text": "Component NOISE-9101-7 carries a Violet label."
+        },
+        {
+          "id": "r9f213b858e92",
+          "text": "Component UNIT_9101_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rd8d36be357b8",
+          "text": "Component NOISE-9101-2 carries a Violet label."
+        },
+        {
+          "id": "r9d1701cd2f35",
+          "text": "Component NOISE-9101-1 carries a Violet label."
+        },
+        {
+          "id": "r32406feb9124",
+          "text": "Component NOISE-9101-5 carries a Violet label."
+        },
+        {
+          "id": "re1dfec302ef1",
+          "text": "Component UNIT_9101_K is stored in the unknown cabinet."
+        },
+        {
+          "id": "r6e755c911b30",
+          "text": "Component NOISE-9101-6 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Copper cabinet",
+        "b": "Silver cabinet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "service_region-0-complete_b",
+      "cluster_id": "service_region-0",
+      "family": "service_region",
+      "scenario": "complete_b",
+      "query": "Which region contains the cluster hosting service OBJ-9110?",
+      "documents": [
+        {
+          "id": "r7f53f0c9c3b8",
+          "text": "Cluster CL-9110 is located in the Inland region."
+        },
+        {
+          "id": "r7f1dcbe40918",
+          "text": "Component NOISE-9110-5 carries a Violet label."
+        },
+        {
+          "id": "r277663bb1919",
+          "text": "Component NOISE-9110-3 carries a Violet label."
+        },
+        {
+          "id": "r053081ed2f22",
+          "text": "Component NOISE-9110-4 carries a Violet label."
+        },
+        {
+          "id": "rff81b6012618",
+          "text": "Component NOISE-9110-1 carries a Violet label."
+        },
+        {
+          "id": "r88074eaac823",
+          "text": "Component NOISE-9110-0 carries a Violet label."
+        },
+        {
+          "id": "rdc073132d9b4",
+          "text": "Component NOISE-9110-7 carries a Violet label."
+        },
+        {
+          "id": "r1d3eb4d1c210",
+          "text": "Component NOISE-9110-2 carries a Violet label."
+        },
+        {
+          "id": "r9ba7051639e8",
+          "text": "Component NOISE-9110-6 carries a Violet label."
+        },
+        {
+          "id": "r8d3790b53ac6",
+          "text": "Service OBJ-9110 runs on cluster CL-9110."
+        },
+        {
+          "id": "r4ddb50b47ee4",
+          "text": "Component OBJ-9110-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Coastal",
+        "b": "Inland",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "service_region-0-unsupported_records",
+      "cluster_id": "service_region-0",
+      "family": "service_region",
+      "scenario": "unsupported_records",
+      "query": "Which region contains the cluster hosting service OBJ-9110?",
+      "documents": [
+        {
+          "id": "r7f53f0c9c3b8",
+          "text": "Recorded observation: Cluster CL-9110 is located in the Coastal region."
+        },
+        {
+          "id": "r7f1dcbe40918",
+          "text": "Component NOISE-9110-5 carries a Violet label."
+        },
+        {
+          "id": "r277663bb1919",
+          "text": "Component NOISE-9110-3 carries a Violet label."
+        },
+        {
+          "id": "r053081ed2f22",
+          "text": "Component NOISE-9110-4 carries a Violet label."
+        },
+        {
+          "id": "rff81b6012618",
+          "text": "Component NOISE-9110-1 carries a Violet label."
+        },
+        {
+          "id": "r88074eaac823",
+          "text": "Component NOISE-9110-0 carries a Violet label."
+        },
+        {
+          "id": "rdc073132d9b4",
+          "text": "Component NOISE-9110-7 carries a Violet label."
+        },
+        {
+          "id": "r1d3eb4d1c210",
+          "text": "Component NOISE-9110-2 carries a Violet label."
+        },
+        {
+          "id": "r9ba7051639e8",
+          "text": "Component NOISE-9110-6 carries a Violet label."
+        },
+        {
+          "id": "r8d3790b53ac6",
+          "text": "Service OBJ-9110 runs on cluster CL-9110."
+        },
+        {
+          "id": "r4ddb50b47ee4",
+          "text": "Component OBJ-9110-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Coastal",
+        "b": "Inland",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "label-0-complete_b",
+      "cluster_id": "label-0",
+      "family": "label",
+      "scenario": "complete_b",
+      "query": "Which color label belongs to component OBJ-9150? Match its exact identifier.",
+      "documents": [
+        {
+          "id": "r2b663b4d44f5",
+          "text": "Component NOISE-9150-7 carries a Violet label."
+        },
+        {
+          "id": "r2d129344d240",
+          "text": "Component NOISE-9150-4 carries a Violet label."
+        },
+        {
+          "id": "r8602aa961e6e",
+          "text": "Component OBJ-9150-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r95e7e27205c6",
+          "text": "Component NOISE-9150-2 carries a Violet label."
+        },
+        {
+          "id": "r353ac8e6149c",
+          "text": "Component NOISE-9150-5 carries a Violet label."
+        },
+        {
+          "id": "r16339fcd007a",
+          "text": "Component NOISE-9150-6 carries a Violet label."
+        },
+        {
+          "id": "r06bd810fd14a",
+          "text": "Component OBJ-9150 carries a Violet label."
+        },
+        {
+          "id": "r42ddc8933b94",
+          "text": "Component NOISE-9150-3 carries a Violet label."
+        },
+        {
+          "id": "rc65671f60117",
+          "text": "Component NOISE-9150-0 carries a Violet label."
+        },
+        {
+          "id": "rc431876dafb4",
+          "text": "Component NOISE-9150-1 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Orange",
+        "b": "Violet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "label-1-unsupported_query",
+      "cluster_id": "label-1",
+      "family": "label",
+      "scenario": "unsupported_query",
+      "query": "Please answer: Which color label belongs to component UNIT_9151_K? Match its exact identifier.",
+      "documents": [
+        {
+          "id": "r6616dc753cba",
+          "text": "Component NOISE-9151-0 carries a Violet label."
+        },
+        {
+          "id": "rc055075f3a7c",
+          "text": "Component NOISE-9151-4 carries a Violet label."
+        },
+        {
+          "id": "r059d32693a06",
+          "text": "Component NOISE-9151-2 carries a Violet label."
+        },
+        {
+          "id": "rb7491ca5b699",
+          "text": "Component UNIT_9151_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rf657e9184924",
+          "text": "Component NOISE-9151-6 carries a Violet label."
+        },
+        {
+          "id": "r519004cf81d2",
+          "text": "Component UNIT_9151_K carries a Violet label."
+        },
+        {
+          "id": "r93209bb93e5d",
+          "text": "Component NOISE-9151-1 carries a Violet label."
+        },
+        {
+          "id": "r52698ed8c171",
+          "text": "Component NOISE-9151-3 carries a Violet label."
+        },
+        {
+          "id": "rf9ba92502bac",
+          "text": "Component NOISE-9151-7 carries a Violet label."
+        },
+        {
+          "id": "r6f98de3814bf",
+          "text": "Component NOISE-9151-5 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Orange",
+        "b": "Violet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "latest_state-1-decisive_or_distractor",
+      "cluster_id": "latest_state-1",
+      "family": "latest_state",
+      "scenario": "decisive_or_distractor",
+      "query": "What is the most recent recorded state of service UNIT_9141_K? Compare observation dates.",
+      "documents": [
+        {
+          "id": "rdbb68bc65a02",
+          "text": "Component NOISE-9141-4 carries a Violet label."
+        },
+        {
+          "id": "r3e1b9b358546",
+          "text": "2026-09-07: service UNIT_9141_K was disabled."
+        },
+        {
+          "id": "re37455372c58",
+          "text": "Component UNIT_9141_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rfb2bef792646",
+          "text": "Component NOISE-9141-2 carries a Violet label."
+        },
+        {
+          "id": "r14465ba400f6",
+          "text": "Component NOISE-9141-7 carries a Violet label."
+        },
+        {
+          "id": "rbf27e56c16d9",
+          "text": "Component NOISE-9141-5 carries a Violet label."
+        },
+        {
+          "id": "rc06272a2c282",
+          "text": "Component NOISE-9141-0 carries a Violet label."
+        },
+        {
+          "id": "r288df198c4dd",
+          "text": "Inventory note: UNIT_9141_K is listed; purchase order archived."
+        },
+        {
+          "id": "r829fe367439a",
+          "text": "2026-04-03: service UNIT_9141_K was enabled."
+        },
+        {
+          "id": "rc6364c58a586",
+          "text": "Component NOISE-9141-3 carries a Violet label."
+        },
+        {
+          "id": "r5dfb5076586f",
+          "text": "Component NOISE-9141-6 carries a Violet label."
+        },
+        {
+          "id": "r1254a8124f41",
+          "text": "Component NOISE-9141-1 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Enabled",
+        "b": "Disabled",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "label-0-complete_a",
+      "cluster_id": "label-0",
+      "family": "label",
+      "scenario": "complete_a",
+      "query": "Which color label belongs to component OBJ-9150? Match its exact identifier.",
+      "documents": [
+        {
+          "id": "r2b663b4d44f5",
+          "text": "Component NOISE-9150-7 carries a Violet label."
+        },
+        {
+          "id": "r2d129344d240",
+          "text": "Component NOISE-9150-4 carries a Violet label."
+        },
+        {
+          "id": "r8602aa961e6e",
+          "text": "Component OBJ-9150-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r95e7e27205c6",
+          "text": "Component NOISE-9150-2 carries a Violet label."
+        },
+        {
+          "id": "r353ac8e6149c",
+          "text": "Component NOISE-9150-5 carries a Violet label."
+        },
+        {
+          "id": "r16339fcd007a",
+          "text": "Component NOISE-9150-6 carries a Violet label."
+        },
+        {
+          "id": "r06bd810fd14a",
+          "text": "Component OBJ-9150 carries a Orange label."
+        },
+        {
+          "id": "r42ddc8933b94",
+          "text": "Component NOISE-9150-3 carries a Violet label."
+        },
+        {
+          "id": "rc65671f60117",
+          "text": "Component NOISE-9150-0 carries a Violet label."
+        },
+        {
+          "id": "rc431876dafb4",
+          "text": "Component NOISE-9150-1 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Orange",
+        "b": "Violet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "release_rule-1-complete_a",
+      "cluster_id": "release_rule-1",
+      "family": "release_rule",
+      "scenario": "complete_a",
+      "query": "May build UNIT_9131_K be published? Publication is allowed exactly when its tests passed AND its review is approved. Either failed condition forbids publication.",
+      "documents": [
+        {
+          "id": "r58535008cf8d",
+          "text": "Component NOISE-9131-5 carries a Violet label."
+        },
+        {
+          "id": "r377f8b29872d",
+          "text": "Component NOISE-9131-7 carries a Violet label."
+        },
+        {
+          "id": "r6de7820d4287",
+          "text": "Component NOISE-9131-0 carries a Violet label."
+        },
+        {
+          "id": "re21bbd012997",
+          "text": "Build UNIT_9131_K: review is approved."
+        },
+        {
+          "id": "rc99a9c6ce4ca",
+          "text": "Build UNIT_9131_K: tests passed."
+        },
+        {
+          "id": "rd9b8851f0b0a",
+          "text": "Component NOISE-9131-3 carries a Violet label."
+        },
+        {
+          "id": "r98e0e73524db",
+          "text": "Component NOISE-9131-4 carries a Violet label."
+        },
+        {
+          "id": "r436373f6b366",
+          "text": "Component UNIT_9131_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r75b01a2f80ef",
+          "text": "Component NOISE-9131-1 carries a Violet label."
+        },
+        {
+          "id": "r98918b743122",
+          "text": "Component NOISE-9131-2 carries a Violet label."
+        },
+        {
+          "id": "r4d299fb245ae",
+          "text": "Component NOISE-9131-6 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Publication allowed",
+        "b": "Publication forbidden",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "service_region-1-complete_b",
+      "cluster_id": "service_region-1",
+      "family": "service_region",
+      "scenario": "complete_b",
+      "query": "Which region contains the cluster hosting service UNIT_9111_K?",
+      "documents": [
+        {
+          "id": "r550c7566552c",
+          "text": "Component NOISE-9111-4 carries a Violet label."
+        },
+        {
+          "id": "r099f5cfd4d66",
+          "text": "Component NOISE-9111-1 carries a Violet label."
+        },
+        {
+          "id": "r0edb3dd4d0c8",
+          "text": "Component NOISE-9111-0 carries a Violet label."
+        },
+        {
+          "id": "r010c6e8901c2",
+          "text": "Component NOISE-9111-5 carries a Violet label."
+        },
+        {
+          "id": "rc4b1193fa2a4",
+          "text": "Component NOISE-9111-2 carries a Violet label."
+        },
+        {
+          "id": "r159973a55246",
+          "text": "Component NOISE-9111-6 carries a Violet label."
+        },
+        {
+          "id": "r5cbdf256199f",
+          "text": "Component NOISE-9111-7 carries a Violet label."
+        },
+        {
+          "id": "r1ad8ce9483f5",
+          "text": "Component NOISE-9111-3 carries a Violet label."
+        },
+        {
+          "id": "r23d5fb61ef2f",
+          "text": "Cluster CL-9111 is located in the Inland region."
+        },
+        {
+          "id": "r6bfc447bdb41",
+          "text": "Service UNIT_9111_K runs on cluster CL-9111."
+        },
+        {
+          "id": "r946162bec0cb",
+          "text": "Component UNIT_9111_K-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Coastal",
+        "b": "Inland",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "service_region-0-unknown_value",
+      "cluster_id": "service_region-0",
+      "family": "service_region",
+      "scenario": "unknown_value",
+      "query": "Which region contains the cluster hosting service OBJ-9110?",
+      "documents": [
+        {
+          "id": "r7f53f0c9c3b8",
+          "text": "Cluster CL-9110 is located in the unknown region."
+        },
+        {
+          "id": "r7f1dcbe40918",
+          "text": "Component NOISE-9110-5 carries a Violet label."
+        },
+        {
+          "id": "r277663bb1919",
+          "text": "Component NOISE-9110-3 carries a Violet label."
+        },
+        {
+          "id": "r053081ed2f22",
+          "text": "Component NOISE-9110-4 carries a Violet label."
+        },
+        {
+          "id": "rff81b6012618",
+          "text": "Component NOISE-9110-1 carries a Violet label."
+        },
+        {
+          "id": "r88074eaac823",
+          "text": "Component NOISE-9110-0 carries a Violet label."
+        },
+        {
+          "id": "rdc073132d9b4",
+          "text": "Component NOISE-9110-7 carries a Violet label."
+        },
+        {
+          "id": "r1d3eb4d1c210",
+          "text": "Component NOISE-9110-2 carries a Violet label."
+        },
+        {
+          "id": "r9ba7051639e8",
+          "text": "Component NOISE-9110-6 carries a Violet label."
+        },
+        {
+          "id": "r8d3790b53ac6",
+          "text": "Service OBJ-9110 runs on cluster CL-9110."
+        },
+        {
+          "id": "r4ddb50b47ee4",
+          "text": "Component OBJ-9110-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Coastal",
+        "b": "Inland",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "latest_state-1-conflict",
+      "cluster_id": "latest_state-1",
+      "family": "latest_state",
+      "scenario": "conflict",
+      "query": "What is the most recent recorded state of service UNIT_9141_K? Compare observation dates.",
+      "documents": [
+        {
+          "id": "rdbb68bc65a02",
+          "text": "Component NOISE-9141-4 carries a Violet label."
+        },
+        {
+          "id": "r3e1b9b358546",
+          "text": "2026-09-07: service UNIT_9141_K was disabled."
+        },
+        {
+          "id": "re37455372c58",
+          "text": "Component UNIT_9141_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rfb2bef792646",
+          "text": "Component NOISE-9141-2 carries a Violet label."
+        },
+        {
+          "id": "r14465ba400f6",
+          "text": "Component NOISE-9141-7 carries a Violet label."
+        },
+        {
+          "id": "rbf27e56c16d9",
+          "text": "Component NOISE-9141-5 carries a Violet label."
+        },
+        {
+          "id": "rc06272a2c282",
+          "text": "Component NOISE-9141-0 carries a Violet label."
+        },
+        {
+          "id": "r288df198c4dd",
+          "text": "2026-09-07: service UNIT_9141_K was enabled."
+        },
+        {
+          "id": "r829fe367439a",
+          "text": "2026-04-03: service UNIT_9141_K was enabled."
+        },
+        {
+          "id": "rc6364c58a586",
+          "text": "Component NOISE-9141-3 carries a Violet label."
+        },
+        {
+          "id": "r5dfb5076586f",
+          "text": "Component NOISE-9141-6 carries a Violet label."
+        },
+        {
+          "id": "r1254a8124f41",
+          "text": "Component NOISE-9141-1 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Enabled",
+        "b": "Disabled",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "dependency_chain-0-conflict",
+      "cluster_id": "dependency_chain-0",
+      "family": "dependency_chain",
+      "scenario": "conflict",
+      "query": "Which zone contains the machine hosting the release train for artifact OBJ-9120?",
+      "documents": [
+        {
+          "id": "rc6413b903cde",
+          "text": "Artifact OBJ-9120 belongs to release train RT-9120."
+        },
+        {
+          "id": "rd61dfb568a56",
+          "text": "Component NOISE-9120-1 carries a Violet label."
+        },
+        {
+          "id": "rfc1818f9a8ef",
+          "text": "Machine VM-9120 is in the Amber zone."
+        },
+        {
+          "id": "r9bdd939814a5",
+          "text": "Component NOISE-9120-5 carries a Violet label."
+        },
+        {
+          "id": "r87c211fb4050",
+          "text": "Component NOISE-9120-6 carries a Violet label."
+        },
+        {
+          "id": "r05bc0e4f14b0",
+          "text": "Machine VM-9120 is in the Indigo zone."
+        },
+        {
+          "id": "rd1a6989b4450",
+          "text": "Component NOISE-9120-7 carries a Violet label."
+        },
+        {
+          "id": "rf246a83b7d15",
+          "text": "Release train RT-9120 is hosted by machine VM-9120."
+        },
+        {
+          "id": "r821887a3ee3e",
+          "text": "Component OBJ-9120-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rf2cac4b075a0",
+          "text": "Component NOISE-9120-3 carries a Violet label."
+        },
+        {
+          "id": "rb9f2b1c56153",
+          "text": "Component NOISE-9120-2 carries a Violet label."
+        },
+        {
+          "id": "r315507a7bc28",
+          "text": "Component NOISE-9120-0 carries a Violet label."
+        },
+        {
+          "id": "r38ff7a580649",
+          "text": "Component NOISE-9120-4 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Amber zone",
+        "b": "Indigo zone",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "storage-0-unsupported_records",
+      "cluster_id": "storage-0",
+      "family": "storage",
+      "scenario": "unsupported_records",
+      "query": "In which cabinet is component OBJ-9100 stored?",
+      "documents": [
+        {
+          "id": "r52f576331436",
+          "text": "Component NOISE-9100-1 carries a Violet label."
+        },
+        {
+          "id": "r6cb63278a49e",
+          "text": "Component NOISE-9100-2 carries a Violet label."
+        },
+        {
+          "id": "rf601ba8c4108",
+          "text": "Component NOISE-9100-3 carries a Violet label."
+        },
+        {
+          "id": "rf6a0ff692ec6",
+          "text": "Component OBJ-9100-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r3208e3d553d7",
+          "text": "Component NOISE-9100-0 carries a Violet label."
+        },
+        {
+          "id": "r574341971347",
+          "text": "Component NOISE-9100-6 carries a Violet label."
+        },
+        {
+          "id": "r07b76c75fe75",
+          "text": "Component NOISE-9100-4 carries a Violet label."
+        },
+        {
+          "id": "r20f0626efc33",
+          "text": "Component NOISE-9100-5 carries a Violet label."
+        },
+        {
+          "id": "r385af868723e",
+          "text": "Component NOISE-9100-7 carries a Violet label."
+        },
+        {
+          "id": "reb662e6b1f54",
+          "text": "Recorded observation: Component OBJ-9100 is stored in the Copper cabinet."
+        }
+      ],
+      "options": {
+        "a": "Copper cabinet",
+        "b": "Silver cabinet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "release_rule-0-complete_a",
+      "cluster_id": "release_rule-0",
+      "family": "release_rule",
+      "scenario": "complete_a",
+      "query": "May build OBJ-9130 be published? Publication is allowed exactly when its tests passed AND its review is approved. Either failed condition forbids publication.",
+      "documents": [
+        {
+          "id": "ra1be4ed6bdbc",
+          "text": "Component NOISE-9130-5 carries a Violet label."
+        },
+        {
+          "id": "r05447843fd29",
+          "text": "Component NOISE-9130-1 carries a Violet label."
+        },
+        {
+          "id": "r8f2292f25a9d",
+          "text": "Build OBJ-9130: review is approved."
+        },
+        {
+          "id": "rb4fcd05bf745",
+          "text": "Component NOISE-9130-2 carries a Violet label."
+        },
+        {
+          "id": "r2814cbbdad34",
+          "text": "Component OBJ-9130-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r849adefea147",
+          "text": "Component NOISE-9130-4 carries a Violet label."
+        },
+        {
+          "id": "rbce3170c2852",
+          "text": "Component NOISE-9130-3 carries a Violet label."
+        },
+        {
+          "id": "r0fc69c675c93",
+          "text": "Component NOISE-9130-6 carries a Violet label."
+        },
+        {
+          "id": "re94e9edab9cf",
+          "text": "Build OBJ-9130: tests passed."
+        },
+        {
+          "id": "rf4409bc866cf",
+          "text": "Component NOISE-9130-7 carries a Violet label."
+        },
+        {
+          "id": "r24bb93bb24f4",
+          "text": "Component NOISE-9130-0 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Publication allowed",
+        "b": "Publication forbidden",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "label-0-partial",
+      "cluster_id": "label-0",
+      "family": "label",
+      "scenario": "partial",
+      "query": "Which color label belongs to component OBJ-9150? Match its exact identifier.",
+      "documents": [
+        {
+          "id": "r2b663b4d44f5",
+          "text": "Component NOISE-9150-7 carries a Violet label."
+        },
+        {
+          "id": "r2d129344d240",
+          "text": "Component NOISE-9150-4 carries a Violet label."
+        },
+        {
+          "id": "r8602aa961e6e",
+          "text": "Component OBJ-9150-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r95e7e27205c6",
+          "text": "Component NOISE-9150-2 carries a Violet label."
+        },
+        {
+          "id": "r353ac8e6149c",
+          "text": "Component NOISE-9150-5 carries a Violet label."
+        },
+        {
+          "id": "r16339fcd007a",
+          "text": "Component NOISE-9150-6 carries a Violet label."
+        },
+        {
+          "id": "r06bd810fd14a",
+          "text": "Inventory note: OBJ-9150 is listed; purchase order archived."
+        },
+        {
+          "id": "r42ddc8933b94",
+          "text": "Component NOISE-9150-3 carries a Violet label."
+        },
+        {
+          "id": "rc65671f60117",
+          "text": "Component NOISE-9150-0 carries a Violet label."
+        },
+        {
+          "id": "rc431876dafb4",
+          "text": "Component NOISE-9150-1 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Orange",
+        "b": "Violet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "label-1-decisive_or_distractor",
+      "cluster_id": "label-1",
+      "family": "label",
+      "scenario": "decisive_or_distractor",
+      "query": "Which color label belongs to component UNIT_9151_K? Match its exact identifier.",
+      "documents": [
+        {
+          "id": "r6616dc753cba",
+          "text": "Component NOISE-9151-0 carries a Violet label."
+        },
+        {
+          "id": "rc055075f3a7c",
+          "text": "Component NOISE-9151-4 carries a Violet label."
+        },
+        {
+          "id": "r059d32693a06",
+          "text": "Component NOISE-9151-2 carries a Violet label."
+        },
+        {
+          "id": "rb7491ca5b699",
+          "text": "Component UNIT_9151_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rf657e9184924",
+          "text": "Component NOISE-9151-6 carries a Violet label."
+        },
+        {
+          "id": "r519004cf81d2",
+          "text": "Component UNIT_9151_K carries a Violet label."
+        },
+        {
+          "id": "r93209bb93e5d",
+          "text": "Component NOISE-9151-1 carries a Violet label."
+        },
+        {
+          "id": "r52698ed8c171",
+          "text": "Component NOISE-9151-3 carries a Violet label."
+        },
+        {
+          "id": "r7c1cd6649fe2",
+          "text": "Inventory note: UNIT_9151_K is listed; purchase order archived."
+        },
+        {
+          "id": "rf9ba92502bac",
+          "text": "Component NOISE-9151-7 carries a Violet label."
+        },
+        {
+          "id": "r6f98de3814bf",
+          "text": "Component NOISE-9151-5 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Orange",
+        "b": "Violet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "release_rule-0-unknown_value",
+      "cluster_id": "release_rule-0",
+      "family": "release_rule",
+      "scenario": "unknown_value",
+      "query": "May build OBJ-9130 be published? Publication is allowed exactly when its tests passed AND its review is approved. Either failed condition forbids publication.",
+      "documents": [
+        {
+          "id": "ra1be4ed6bdbc",
+          "text": "Component NOISE-9130-5 carries a Violet label."
+        },
+        {
+          "id": "r05447843fd29",
+          "text": "Component NOISE-9130-1 carries a Violet label."
+        },
+        {
+          "id": "r8f2292f25a9d",
+          "text": "Build OBJ-9130: review is unknown."
+        },
+        {
+          "id": "rb4fcd05bf745",
+          "text": "Component NOISE-9130-2 carries a Violet label."
+        },
+        {
+          "id": "r2814cbbdad34",
+          "text": "Component OBJ-9130-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r849adefea147",
+          "text": "Component NOISE-9130-4 carries a Violet label."
+        },
+        {
+          "id": "rbce3170c2852",
+          "text": "Component NOISE-9130-3 carries a Violet label."
+        },
+        {
+          "id": "r0fc69c675c93",
+          "text": "Component NOISE-9130-6 carries a Violet label."
+        },
+        {
+          "id": "re94e9edab9cf",
+          "text": "Build OBJ-9130: tests passed."
+        },
+        {
+          "id": "rf4409bc866cf",
+          "text": "Component NOISE-9130-7 carries a Violet label."
+        },
+        {
+          "id": "r24bb93bb24f4",
+          "text": "Component NOISE-9130-0 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Publication allowed",
+        "b": "Publication forbidden",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "dependency_chain-0-complete_b",
+      "cluster_id": "dependency_chain-0",
+      "family": "dependency_chain",
+      "scenario": "complete_b",
+      "query": "Which zone contains the machine hosting the release train for artifact OBJ-9120?",
+      "documents": [
+        {
+          "id": "rc6413b903cde",
+          "text": "Artifact OBJ-9120 belongs to release train RT-9120."
+        },
+        {
+          "id": "rd61dfb568a56",
+          "text": "Component NOISE-9120-1 carries a Violet label."
+        },
+        {
+          "id": "rfc1818f9a8ef",
+          "text": "Machine VM-9120 is in the Indigo zone."
+        },
+        {
+          "id": "r9bdd939814a5",
+          "text": "Component NOISE-9120-5 carries a Violet label."
+        },
+        {
+          "id": "r87c211fb4050",
+          "text": "Component NOISE-9120-6 carries a Violet label."
+        },
+        {
+          "id": "rd1a6989b4450",
+          "text": "Component NOISE-9120-7 carries a Violet label."
+        },
+        {
+          "id": "rf246a83b7d15",
+          "text": "Release train RT-9120 is hosted by machine VM-9120."
+        },
+        {
+          "id": "r821887a3ee3e",
+          "text": "Component OBJ-9120-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rf2cac4b075a0",
+          "text": "Component NOISE-9120-3 carries a Violet label."
+        },
+        {
+          "id": "rb9f2b1c56153",
+          "text": "Component NOISE-9120-2 carries a Violet label."
+        },
+        {
+          "id": "r315507a7bc28",
+          "text": "Component NOISE-9120-0 carries a Violet label."
+        },
+        {
+          "id": "r38ff7a580649",
+          "text": "Component NOISE-9120-4 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Amber zone",
+        "b": "Indigo zone",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "service_region-1-absent",
+      "cluster_id": "service_region-1",
+      "family": "service_region",
+      "scenario": "absent",
+      "query": "Which region contains the cluster hosting service UNIT_9111_K?",
+      "documents": [
+        {
+          "id": "r550c7566552c",
+          "text": "Component NOISE-9111-4 carries a Violet label."
+        },
+        {
+          "id": "r099f5cfd4d66",
+          "text": "Component NOISE-9111-1 carries a Violet label."
+        },
+        {
+          "id": "r0edb3dd4d0c8",
+          "text": "Component NOISE-9111-0 carries a Violet label."
+        },
+        {
+          "id": "r010c6e8901c2",
+          "text": "Component NOISE-9111-5 carries a Violet label."
+        },
+        {
+          "id": "rc4b1193fa2a4",
+          "text": "Component NOISE-9111-2 carries a Violet label."
+        },
+        {
+          "id": "r159973a55246",
+          "text": "Component NOISE-9111-6 carries a Violet label."
+        },
+        {
+          "id": "r5cbdf256199f",
+          "text": "Component NOISE-9111-7 carries a Violet label."
+        },
+        {
+          "id": "r1ad8ce9483f5",
+          "text": "Component NOISE-9111-3 carries a Violet label."
+        },
+        {
+          "id": "r946162bec0cb",
+          "text": "Component UNIT_9111_K-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Coastal",
+        "b": "Inland",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "latest_state-0-unsupported_records",
+      "cluster_id": "latest_state-0",
+      "family": "latest_state",
+      "scenario": "unsupported_records",
+      "query": "What is the most recent recorded state of service OBJ-9140? Compare observation dates.",
+      "documents": [
+        {
+          "id": "r99ec591b7b8e",
+          "text": "Component NOISE-9140-1 carries a Violet label."
+        },
+        {
+          "id": "rae8d86df76dc",
+          "text": "Component OBJ-9140-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r564119dc5b8a",
+          "text": "Component NOISE-9140-0 carries a Violet label."
+        },
+        {
+          "id": "rff83a131992a",
+          "text": "Recorded observation: 2026-09-07: service OBJ-9140 was enabled."
+        },
+        {
+          "id": "rf25138bf01e4",
+          "text": "Component NOISE-9140-5 carries a Violet label."
+        },
+        {
+          "id": "rf36c82174e45",
+          "text": "Component NOISE-9140-4 carries a Violet label."
+        },
+        {
+          "id": "r1d049a3a8c19",
+          "text": "2026-04-03: service OBJ-9140 was disabled."
+        },
+        {
+          "id": "r1f6a5081366a",
+          "text": "Component NOISE-9140-3 carries a Violet label."
+        },
+        {
+          "id": "r8c3d95ec7ff8",
+          "text": "Component NOISE-9140-7 carries a Violet label."
+        },
+        {
+          "id": "rb1f4927e4161",
+          "text": "Component NOISE-9140-6 carries a Violet label."
+        },
+        {
+          "id": "r67347f06b4c7",
+          "text": "Component NOISE-9140-2 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Enabled",
+        "b": "Disabled",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "release_rule-1-conflict",
+      "cluster_id": "release_rule-1",
+      "family": "release_rule",
+      "scenario": "conflict",
+      "query": "May build UNIT_9131_K be published? Publication is allowed exactly when its tests passed AND its review is approved. Either failed condition forbids publication.",
+      "documents": [
+        {
+          "id": "r58535008cf8d",
+          "text": "Component NOISE-9131-5 carries a Violet label."
+        },
+        {
+          "id": "r70cd513f2cbd",
+          "text": "Build UNIT_9131_K: review is approved."
+        },
+        {
+          "id": "r377f8b29872d",
+          "text": "Component NOISE-9131-7 carries a Violet label."
+        },
+        {
+          "id": "r6de7820d4287",
+          "text": "Component NOISE-9131-0 carries a Violet label."
+        },
+        {
+          "id": "re21bbd012997",
+          "text": "Build UNIT_9131_K: review is not approved."
+        },
+        {
+          "id": "rc99a9c6ce4ca",
+          "text": "Build UNIT_9131_K: tests passed."
+        },
+        {
+          "id": "rd9b8851f0b0a",
+          "text": "Component NOISE-9131-3 carries a Violet label."
+        },
+        {
+          "id": "r98e0e73524db",
+          "text": "Component NOISE-9131-4 carries a Violet label."
+        },
+        {
+          "id": "r436373f6b366",
+          "text": "Component UNIT_9131_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r75b01a2f80ef",
+          "text": "Component NOISE-9131-1 carries a Violet label."
+        },
+        {
+          "id": "r98918b743122",
+          "text": "Component NOISE-9131-2 carries a Violet label."
+        },
+        {
+          "id": "r4d299fb245ae",
+          "text": "Component NOISE-9131-6 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Publication allowed",
+        "b": "Publication forbidden",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "release_rule-0-complete_b",
+      "cluster_id": "release_rule-0",
+      "family": "release_rule",
+      "scenario": "complete_b",
+      "query": "May build OBJ-9130 be published? Publication is allowed exactly when its tests passed AND its review is approved. Either failed condition forbids publication.",
+      "documents": [
+        {
+          "id": "ra1be4ed6bdbc",
+          "text": "Component NOISE-9130-5 carries a Violet label."
+        },
+        {
+          "id": "r05447843fd29",
+          "text": "Component NOISE-9130-1 carries a Violet label."
+        },
+        {
+          "id": "r8f2292f25a9d",
+          "text": "Build OBJ-9130: review is not approved."
+        },
+        {
+          "id": "rb4fcd05bf745",
+          "text": "Component NOISE-9130-2 carries a Violet label."
+        },
+        {
+          "id": "r2814cbbdad34",
+          "text": "Component OBJ-9130-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r849adefea147",
+          "text": "Component NOISE-9130-4 carries a Violet label."
+        },
+        {
+          "id": "rbce3170c2852",
+          "text": "Component NOISE-9130-3 carries a Violet label."
+        },
+        {
+          "id": "r0fc69c675c93",
+          "text": "Component NOISE-9130-6 carries a Violet label."
+        },
+        {
+          "id": "re94e9edab9cf",
+          "text": "Build OBJ-9130: tests passed."
+        },
+        {
+          "id": "rf4409bc866cf",
+          "text": "Component NOISE-9130-7 carries a Violet label."
+        },
+        {
+          "id": "r24bb93bb24f4",
+          "text": "Component NOISE-9130-0 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Publication allowed",
+        "b": "Publication forbidden",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "label-1-complete_b",
+      "cluster_id": "label-1",
+      "family": "label",
+      "scenario": "complete_b",
+      "query": "Which color label belongs to component UNIT_9151_K? Match its exact identifier.",
+      "documents": [
+        {
+          "id": "r6616dc753cba",
+          "text": "Component NOISE-9151-0 carries a Violet label."
+        },
+        {
+          "id": "rc055075f3a7c",
+          "text": "Component NOISE-9151-4 carries a Violet label."
+        },
+        {
+          "id": "r059d32693a06",
+          "text": "Component NOISE-9151-2 carries a Violet label."
+        },
+        {
+          "id": "rb7491ca5b699",
+          "text": "Component UNIT_9151_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rf657e9184924",
+          "text": "Component NOISE-9151-6 carries a Violet label."
+        },
+        {
+          "id": "r519004cf81d2",
+          "text": "Component UNIT_9151_K carries a Violet label."
+        },
+        {
+          "id": "r93209bb93e5d",
+          "text": "Component NOISE-9151-1 carries a Violet label."
+        },
+        {
+          "id": "r52698ed8c171",
+          "text": "Component NOISE-9151-3 carries a Violet label."
+        },
+        {
+          "id": "rf9ba92502bac",
+          "text": "Component NOISE-9151-7 carries a Violet label."
+        },
+        {
+          "id": "r6f98de3814bf",
+          "text": "Component NOISE-9151-5 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Orange",
+        "b": "Violet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "label-0-decisive_or_distractor",
+      "cluster_id": "label-0",
+      "family": "label",
+      "scenario": "decisive_or_distractor",
+      "query": "Which color label belongs to component OBJ-9150? Match its exact identifier.",
+      "documents": [
+        {
+          "id": "r2b663b4d44f5",
+          "text": "Component NOISE-9150-7 carries a Violet label."
+        },
+        {
+          "id": "r2d129344d240",
+          "text": "Component NOISE-9150-4 carries a Violet label."
+        },
+        {
+          "id": "r8602aa961e6e",
+          "text": "Component OBJ-9150-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r1bd2a727ebac",
+          "text": "Inventory note: OBJ-9150 is listed; purchase order archived."
+        },
+        {
+          "id": "r95e7e27205c6",
+          "text": "Component NOISE-9150-2 carries a Violet label."
+        },
+        {
+          "id": "r353ac8e6149c",
+          "text": "Component NOISE-9150-5 carries a Violet label."
+        },
+        {
+          "id": "r16339fcd007a",
+          "text": "Component NOISE-9150-6 carries a Violet label."
+        },
+        {
+          "id": "r06bd810fd14a",
+          "text": "Component OBJ-9150 carries a Orange label."
+        },
+        {
+          "id": "r42ddc8933b94",
+          "text": "Component NOISE-9150-3 carries a Violet label."
+        },
+        {
+          "id": "rc65671f60117",
+          "text": "Component NOISE-9150-0 carries a Violet label."
+        },
+        {
+          "id": "rc431876dafb4",
+          "text": "Component NOISE-9150-1 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Orange",
+        "b": "Violet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "service_region-1-partial",
+      "cluster_id": "service_region-1",
+      "family": "service_region",
+      "scenario": "partial",
+      "query": "Which region contains the cluster hosting service UNIT_9111_K?",
+      "documents": [
+        {
+          "id": "r550c7566552c",
+          "text": "Component NOISE-9111-4 carries a Violet label."
+        },
+        {
+          "id": "r099f5cfd4d66",
+          "text": "Component NOISE-9111-1 carries a Violet label."
+        },
+        {
+          "id": "r0edb3dd4d0c8",
+          "text": "Component NOISE-9111-0 carries a Violet label."
+        },
+        {
+          "id": "r010c6e8901c2",
+          "text": "Component NOISE-9111-5 carries a Violet label."
+        },
+        {
+          "id": "rc4b1193fa2a4",
+          "text": "Component NOISE-9111-2 carries a Violet label."
+        },
+        {
+          "id": "r159973a55246",
+          "text": "Component NOISE-9111-6 carries a Violet label."
+        },
+        {
+          "id": "r5cbdf256199f",
+          "text": "Component NOISE-9111-7 carries a Violet label."
+        },
+        {
+          "id": "r1ad8ce9483f5",
+          "text": "Component NOISE-9111-3 carries a Violet label."
+        },
+        {
+          "id": "r6bfc447bdb41",
+          "text": "Service UNIT_9111_K runs on cluster CL-9111."
+        },
+        {
+          "id": "r946162bec0cb",
+          "text": "Component UNIT_9111_K-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Coastal",
+        "b": "Inland",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "storage-0-partial",
+      "cluster_id": "storage-0",
+      "family": "storage",
+      "scenario": "partial",
+      "query": "In which cabinet is component OBJ-9100 stored?",
+      "documents": [
+        {
+          "id": "r52f576331436",
+          "text": "Component NOISE-9100-1 carries a Violet label."
+        },
+        {
+          "id": "r6cb63278a49e",
+          "text": "Component NOISE-9100-2 carries a Violet label."
+        },
+        {
+          "id": "rf601ba8c4108",
+          "text": "Component NOISE-9100-3 carries a Violet label."
+        },
+        {
+          "id": "rf6a0ff692ec6",
+          "text": "Component OBJ-9100-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r3208e3d553d7",
+          "text": "Component NOISE-9100-0 carries a Violet label."
+        },
+        {
+          "id": "r574341971347",
+          "text": "Component NOISE-9100-6 carries a Violet label."
+        },
+        {
+          "id": "r07b76c75fe75",
+          "text": "Component NOISE-9100-4 carries a Violet label."
+        },
+        {
+          "id": "r20f0626efc33",
+          "text": "Component NOISE-9100-5 carries a Violet label."
+        },
+        {
+          "id": "r385af868723e",
+          "text": "Component NOISE-9100-7 carries a Violet label."
+        },
+        {
+          "id": "reb662e6b1f54",
+          "text": "Inventory note: OBJ-9100 is listed; purchase order archived."
+        }
+      ],
+      "options": {
+        "a": "Copper cabinet",
+        "b": "Silver cabinet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "latest_state-0-complete_a",
+      "cluster_id": "latest_state-0",
+      "family": "latest_state",
+      "scenario": "complete_a",
+      "query": "What is the most recent recorded state of service OBJ-9140? Compare observation dates.",
+      "documents": [
+        {
+          "id": "r99ec591b7b8e",
+          "text": "Component NOISE-9140-1 carries a Violet label."
+        },
+        {
+          "id": "rae8d86df76dc",
+          "text": "Component OBJ-9140-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r564119dc5b8a",
+          "text": "Component NOISE-9140-0 carries a Violet label."
+        },
+        {
+          "id": "rff83a131992a",
+          "text": "2026-09-07: service OBJ-9140 was enabled."
+        },
+        {
+          "id": "rf25138bf01e4",
+          "text": "Component NOISE-9140-5 carries a Violet label."
+        },
+        {
+          "id": "rf36c82174e45",
+          "text": "Component NOISE-9140-4 carries a Violet label."
+        },
+        {
+          "id": "r1d049a3a8c19",
+          "text": "2026-04-03: service OBJ-9140 was disabled."
+        },
+        {
+          "id": "r1f6a5081366a",
+          "text": "Component NOISE-9140-3 carries a Violet label."
+        },
+        {
+          "id": "r8c3d95ec7ff8",
+          "text": "Component NOISE-9140-7 carries a Violet label."
+        },
+        {
+          "id": "rb1f4927e4161",
+          "text": "Component NOISE-9140-6 carries a Violet label."
+        },
+        {
+          "id": "r67347f06b4c7",
+          "text": "Component NOISE-9140-2 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Enabled",
+        "b": "Disabled",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "latest_state-1-unknown_value",
+      "cluster_id": "latest_state-1",
+      "family": "latest_state",
+      "scenario": "unknown_value",
+      "query": "What is the most recent recorded state of service UNIT_9141_K? Compare observation dates.",
+      "documents": [
+        {
+          "id": "rdbb68bc65a02",
+          "text": "Component NOISE-9141-4 carries a Violet label."
+        },
+        {
+          "id": "r3e1b9b358546",
+          "text": "2026-09-07: service UNIT_9141_K was unknown."
+        },
+        {
+          "id": "re37455372c58",
+          "text": "Component UNIT_9141_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rfb2bef792646",
+          "text": "Component NOISE-9141-2 carries a Violet label."
+        },
+        {
+          "id": "r14465ba400f6",
+          "text": "Component NOISE-9141-7 carries a Violet label."
+        },
+        {
+          "id": "rbf27e56c16d9",
+          "text": "Component NOISE-9141-5 carries a Violet label."
+        },
+        {
+          "id": "rc06272a2c282",
+          "text": "Component NOISE-9141-0 carries a Violet label."
+        },
+        {
+          "id": "r829fe367439a",
+          "text": "2026-04-03: service UNIT_9141_K was enabled."
+        },
+        {
+          "id": "rc6364c58a586",
+          "text": "Component NOISE-9141-3 carries a Violet label."
+        },
+        {
+          "id": "r5dfb5076586f",
+          "text": "Component NOISE-9141-6 carries a Violet label."
+        },
+        {
+          "id": "r1254a8124f41",
+          "text": "Component NOISE-9141-1 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Enabled",
+        "b": "Disabled",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "label-0-unknown_value",
+      "cluster_id": "label-0",
+      "family": "label",
+      "scenario": "unknown_value",
+      "query": "Which color label belongs to component OBJ-9150? Match its exact identifier.",
+      "documents": [
+        {
+          "id": "r2b663b4d44f5",
+          "text": "Component NOISE-9150-7 carries a Violet label."
+        },
+        {
+          "id": "r2d129344d240",
+          "text": "Component NOISE-9150-4 carries a Violet label."
+        },
+        {
+          "id": "r8602aa961e6e",
+          "text": "Component OBJ-9150-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r95e7e27205c6",
+          "text": "Component NOISE-9150-2 carries a Violet label."
+        },
+        {
+          "id": "r353ac8e6149c",
+          "text": "Component NOISE-9150-5 carries a Violet label."
+        },
+        {
+          "id": "r16339fcd007a",
+          "text": "Component NOISE-9150-6 carries a Violet label."
+        },
+        {
+          "id": "r06bd810fd14a",
+          "text": "Component OBJ-9150 carries a unknown label."
+        },
+        {
+          "id": "r42ddc8933b94",
+          "text": "Component NOISE-9150-3 carries a Violet label."
+        },
+        {
+          "id": "rc65671f60117",
+          "text": "Component NOISE-9150-0 carries a Violet label."
+        },
+        {
+          "id": "rc431876dafb4",
+          "text": "Component NOISE-9150-1 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Orange",
+        "b": "Violet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "service_region-1-unsupported_query",
+      "cluster_id": "service_region-1",
+      "family": "service_region",
+      "scenario": "unsupported_query",
+      "query": "Please answer: Which region contains the cluster hosting service UNIT_9111_K?",
+      "documents": [
+        {
+          "id": "r550c7566552c",
+          "text": "Component NOISE-9111-4 carries a Violet label."
+        },
+        {
+          "id": "r099f5cfd4d66",
+          "text": "Component NOISE-9111-1 carries a Violet label."
+        },
+        {
+          "id": "r0edb3dd4d0c8",
+          "text": "Component NOISE-9111-0 carries a Violet label."
+        },
+        {
+          "id": "r010c6e8901c2",
+          "text": "Component NOISE-9111-5 carries a Violet label."
+        },
+        {
+          "id": "rc4b1193fa2a4",
+          "text": "Component NOISE-9111-2 carries a Violet label."
+        },
+        {
+          "id": "r159973a55246",
+          "text": "Component NOISE-9111-6 carries a Violet label."
+        },
+        {
+          "id": "r5cbdf256199f",
+          "text": "Component NOISE-9111-7 carries a Violet label."
+        },
+        {
+          "id": "r1ad8ce9483f5",
+          "text": "Component NOISE-9111-3 carries a Violet label."
+        },
+        {
+          "id": "r23d5fb61ef2f",
+          "text": "Cluster CL-9111 is located in the Inland region."
+        },
+        {
+          "id": "r6bfc447bdb41",
+          "text": "Service UNIT_9111_K runs on cluster CL-9111."
+        },
+        {
+          "id": "r946162bec0cb",
+          "text": "Component UNIT_9111_K-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Coastal",
+        "b": "Inland",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "dependency_chain-0-complete_a",
+      "cluster_id": "dependency_chain-0",
+      "family": "dependency_chain",
+      "scenario": "complete_a",
+      "query": "Which zone contains the machine hosting the release train for artifact OBJ-9120?",
+      "documents": [
+        {
+          "id": "rc6413b903cde",
+          "text": "Artifact OBJ-9120 belongs to release train RT-9120."
+        },
+        {
+          "id": "rd61dfb568a56",
+          "text": "Component NOISE-9120-1 carries a Violet label."
+        },
+        {
+          "id": "rfc1818f9a8ef",
+          "text": "Machine VM-9120 is in the Amber zone."
+        },
+        {
+          "id": "r9bdd939814a5",
+          "text": "Component NOISE-9120-5 carries a Violet label."
+        },
+        {
+          "id": "r87c211fb4050",
+          "text": "Component NOISE-9120-6 carries a Violet label."
+        },
+        {
+          "id": "rd1a6989b4450",
+          "text": "Component NOISE-9120-7 carries a Violet label."
+        },
+        {
+          "id": "rf246a83b7d15",
+          "text": "Release train RT-9120 is hosted by machine VM-9120."
+        },
+        {
+          "id": "r821887a3ee3e",
+          "text": "Component OBJ-9120-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rf2cac4b075a0",
+          "text": "Component NOISE-9120-3 carries a Violet label."
+        },
+        {
+          "id": "rb9f2b1c56153",
+          "text": "Component NOISE-9120-2 carries a Violet label."
+        },
+        {
+          "id": "r315507a7bc28",
+          "text": "Component NOISE-9120-0 carries a Violet label."
+        },
+        {
+          "id": "r38ff7a580649",
+          "text": "Component NOISE-9120-4 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Amber zone",
+        "b": "Indigo zone",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "label-0-unsupported_records",
+      "cluster_id": "label-0",
+      "family": "label",
+      "scenario": "unsupported_records",
+      "query": "Which color label belongs to component OBJ-9150? Match its exact identifier.",
+      "documents": [
+        {
+          "id": "r2b663b4d44f5",
+          "text": "Component NOISE-9150-7 carries a Violet label."
+        },
+        {
+          "id": "r2d129344d240",
+          "text": "Component NOISE-9150-4 carries a Violet label."
+        },
+        {
+          "id": "r8602aa961e6e",
+          "text": "Component OBJ-9150-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r95e7e27205c6",
+          "text": "Component NOISE-9150-2 carries a Violet label."
+        },
+        {
+          "id": "r353ac8e6149c",
+          "text": "Component NOISE-9150-5 carries a Violet label."
+        },
+        {
+          "id": "r16339fcd007a",
+          "text": "Component NOISE-9150-6 carries a Violet label."
+        },
+        {
+          "id": "r06bd810fd14a",
+          "text": "Recorded observation: Component OBJ-9150 carries a Orange label."
+        },
+        {
+          "id": "r42ddc8933b94",
+          "text": "Component NOISE-9150-3 carries a Violet label."
+        },
+        {
+          "id": "rc65671f60117",
+          "text": "Component NOISE-9150-0 carries a Violet label."
+        },
+        {
+          "id": "rc431876dafb4",
+          "text": "Component NOISE-9150-1 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Orange",
+        "b": "Violet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "service_region-0-decisive_or_distractor",
+      "cluster_id": "service_region-0",
+      "family": "service_region",
+      "scenario": "decisive_or_distractor",
+      "query": "Which region contains the cluster hosting service OBJ-9110?",
+      "documents": [
+        {
+          "id": "r9dea7a03b4aa",
+          "text": "Inventory note: OBJ-9110 is listed; purchase order archived."
+        },
+        {
+          "id": "r7f53f0c9c3b8",
+          "text": "Cluster CL-9110 is located in the Coastal region."
+        },
+        {
+          "id": "r7f1dcbe40918",
+          "text": "Component NOISE-9110-5 carries a Violet label."
+        },
+        {
+          "id": "r277663bb1919",
+          "text": "Component NOISE-9110-3 carries a Violet label."
+        },
+        {
+          "id": "r053081ed2f22",
+          "text": "Component NOISE-9110-4 carries a Violet label."
+        },
+        {
+          "id": "rff81b6012618",
+          "text": "Component NOISE-9110-1 carries a Violet label."
+        },
+        {
+          "id": "r88074eaac823",
+          "text": "Component NOISE-9110-0 carries a Violet label."
+        },
+        {
+          "id": "rdc073132d9b4",
+          "text": "Component NOISE-9110-7 carries a Violet label."
+        },
+        {
+          "id": "r1d3eb4d1c210",
+          "text": "Component NOISE-9110-2 carries a Violet label."
+        },
+        {
+          "id": "r9ba7051639e8",
+          "text": "Component NOISE-9110-6 carries a Violet label."
+        },
+        {
+          "id": "r8d3790b53ac6",
+          "text": "Service OBJ-9110 runs on cluster CL-9110."
+        },
+        {
+          "id": "r4ddb50b47ee4",
+          "text": "Component OBJ-9110-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Coastal",
+        "b": "Inland",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "storage-0-complete_b",
+      "cluster_id": "storage-0",
+      "family": "storage",
+      "scenario": "complete_b",
+      "query": "In which cabinet is component OBJ-9100 stored?",
+      "documents": [
+        {
+          "id": "r52f576331436",
+          "text": "Component NOISE-9100-1 carries a Violet label."
+        },
+        {
+          "id": "r6cb63278a49e",
+          "text": "Component NOISE-9100-2 carries a Violet label."
+        },
+        {
+          "id": "rf601ba8c4108",
+          "text": "Component NOISE-9100-3 carries a Violet label."
+        },
+        {
+          "id": "rf6a0ff692ec6",
+          "text": "Component OBJ-9100-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r3208e3d553d7",
+          "text": "Component NOISE-9100-0 carries a Violet label."
+        },
+        {
+          "id": "r574341971347",
+          "text": "Component NOISE-9100-6 carries a Violet label."
+        },
+        {
+          "id": "r07b76c75fe75",
+          "text": "Component NOISE-9100-4 carries a Violet label."
+        },
+        {
+          "id": "r20f0626efc33",
+          "text": "Component NOISE-9100-5 carries a Violet label."
+        },
+        {
+          "id": "r385af868723e",
+          "text": "Component NOISE-9100-7 carries a Violet label."
+        },
+        {
+          "id": "reb662e6b1f54",
+          "text": "Component OBJ-9100 is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Copper cabinet",
+        "b": "Silver cabinet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "label-0-absent",
+      "cluster_id": "label-0",
+      "family": "label",
+      "scenario": "absent",
+      "query": "Which color label belongs to component OBJ-9150? Match its exact identifier.",
+      "documents": [
+        {
+          "id": "r2b663b4d44f5",
+          "text": "Component NOISE-9150-7 carries a Violet label."
+        },
+        {
+          "id": "r2d129344d240",
+          "text": "Component NOISE-9150-4 carries a Violet label."
+        },
+        {
+          "id": "r8602aa961e6e",
+          "text": "Component OBJ-9150-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r95e7e27205c6",
+          "text": "Component NOISE-9150-2 carries a Violet label."
+        },
+        {
+          "id": "r353ac8e6149c",
+          "text": "Component NOISE-9150-5 carries a Violet label."
+        },
+        {
+          "id": "r16339fcd007a",
+          "text": "Component NOISE-9150-6 carries a Violet label."
+        },
+        {
+          "id": "r42ddc8933b94",
+          "text": "Component NOISE-9150-3 carries a Violet label."
+        },
+        {
+          "id": "rc65671f60117",
+          "text": "Component NOISE-9150-0 carries a Violet label."
+        },
+        {
+          "id": "rc431876dafb4",
+          "text": "Component NOISE-9150-1 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Orange",
+        "b": "Violet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "release_rule-1-complete_b",
+      "cluster_id": "release_rule-1",
+      "family": "release_rule",
+      "scenario": "complete_b",
+      "query": "May build UNIT_9131_K be published? Publication is allowed exactly when its tests passed AND its review is approved. Either failed condition forbids publication.",
+      "documents": [
+        {
+          "id": "r58535008cf8d",
+          "text": "Component NOISE-9131-5 carries a Violet label."
+        },
+        {
+          "id": "r377f8b29872d",
+          "text": "Component NOISE-9131-7 carries a Violet label."
+        },
+        {
+          "id": "r6de7820d4287",
+          "text": "Component NOISE-9131-0 carries a Violet label."
+        },
+        {
+          "id": "re21bbd012997",
+          "text": "Build UNIT_9131_K: review is not approved."
+        },
+        {
+          "id": "rc99a9c6ce4ca",
+          "text": "Build UNIT_9131_K: tests passed."
+        },
+        {
+          "id": "rd9b8851f0b0a",
+          "text": "Component NOISE-9131-3 carries a Violet label."
+        },
+        {
+          "id": "r98e0e73524db",
+          "text": "Component NOISE-9131-4 carries a Violet label."
+        },
+        {
+          "id": "r436373f6b366",
+          "text": "Component UNIT_9131_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r75b01a2f80ef",
+          "text": "Component NOISE-9131-1 carries a Violet label."
+        },
+        {
+          "id": "r98918b743122",
+          "text": "Component NOISE-9131-2 carries a Violet label."
+        },
+        {
+          "id": "r4d299fb245ae",
+          "text": "Component NOISE-9131-6 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Publication allowed",
+        "b": "Publication forbidden",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "storage-0-unknown_value",
+      "cluster_id": "storage-0",
+      "family": "storage",
+      "scenario": "unknown_value",
+      "query": "In which cabinet is component OBJ-9100 stored?",
+      "documents": [
+        {
+          "id": "r52f576331436",
+          "text": "Component NOISE-9100-1 carries a Violet label."
+        },
+        {
+          "id": "r6cb63278a49e",
+          "text": "Component NOISE-9100-2 carries a Violet label."
+        },
+        {
+          "id": "rf601ba8c4108",
+          "text": "Component NOISE-9100-3 carries a Violet label."
+        },
+        {
+          "id": "rf6a0ff692ec6",
+          "text": "Component OBJ-9100-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r3208e3d553d7",
+          "text": "Component NOISE-9100-0 carries a Violet label."
+        },
+        {
+          "id": "r574341971347",
+          "text": "Component NOISE-9100-6 carries a Violet label."
+        },
+        {
+          "id": "r07b76c75fe75",
+          "text": "Component NOISE-9100-4 carries a Violet label."
+        },
+        {
+          "id": "r20f0626efc33",
+          "text": "Component NOISE-9100-5 carries a Violet label."
+        },
+        {
+          "id": "r385af868723e",
+          "text": "Component NOISE-9100-7 carries a Violet label."
+        },
+        {
+          "id": "reb662e6b1f54",
+          "text": "Component OBJ-9100 is stored in the unknown cabinet."
+        }
+      ],
+      "options": {
+        "a": "Copper cabinet",
+        "b": "Silver cabinet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "dependency_chain-1-complete_b",
+      "cluster_id": "dependency_chain-1",
+      "family": "dependency_chain",
+      "scenario": "complete_b",
+      "query": "Which zone contains the machine hosting the release train for artifact UNIT_9121_K?",
+      "documents": [
+        {
+          "id": "r2dc2b3876cae",
+          "text": "Component NOISE-9121-2 carries a Violet label."
+        },
+        {
+          "id": "r97742fa93fa6",
+          "text": "Component NOISE-9121-3 carries a Violet label."
+        },
+        {
+          "id": "r0610056127d2",
+          "text": "Release train RT-9121 is hosted by machine VM-9121."
+        },
+        {
+          "id": "rd61407e11e40",
+          "text": "Component NOISE-9121-1 carries a Violet label."
+        },
+        {
+          "id": "re2406b454b9b",
+          "text": "Component NOISE-9121-6 carries a Violet label."
+        },
+        {
+          "id": "rb83efb6ffd85",
+          "text": "Component NOISE-9121-0 carries a Violet label."
+        },
+        {
+          "id": "r2c990cac3110",
+          "text": "Artifact UNIT_9121_K belongs to release train RT-9121."
+        },
+        {
+          "id": "raa4d4881d0b6",
+          "text": "Component NOISE-9121-5 carries a Violet label."
+        },
+        {
+          "id": "r1e8044685eb5",
+          "text": "Machine VM-9121 is in the Indigo zone."
+        },
+        {
+          "id": "r72ac66405405",
+          "text": "Component NOISE-9121-7 carries a Violet label."
+        },
+        {
+          "id": "r44587b45307b",
+          "text": "Component NOISE-9121-4 carries a Violet label."
+        },
+        {
+          "id": "r584a81e13ec8",
+          "text": "Component UNIT_9121_K-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Amber zone",
+        "b": "Indigo zone",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "dependency_chain-1-conflict",
+      "cluster_id": "dependency_chain-1",
+      "family": "dependency_chain",
+      "scenario": "conflict",
+      "query": "Which zone contains the machine hosting the release train for artifact UNIT_9121_K?",
+      "documents": [
+        {
+          "id": "r2dc2b3876cae",
+          "text": "Component NOISE-9121-2 carries a Violet label."
+        },
+        {
+          "id": "r97742fa93fa6",
+          "text": "Component NOISE-9121-3 carries a Violet label."
+        },
+        {
+          "id": "r0610056127d2",
+          "text": "Release train RT-9121 is hosted by machine VM-9121."
+        },
+        {
+          "id": "rd61407e11e40",
+          "text": "Component NOISE-9121-1 carries a Violet label."
+        },
+        {
+          "id": "re2406b454b9b",
+          "text": "Component NOISE-9121-6 carries a Violet label."
+        },
+        {
+          "id": "rb83efb6ffd85",
+          "text": "Component NOISE-9121-0 carries a Violet label."
+        },
+        {
+          "id": "r2c990cac3110",
+          "text": "Artifact UNIT_9121_K belongs to release train RT-9121."
+        },
+        {
+          "id": "r9e52d7db7138",
+          "text": "Machine VM-9121 is in the Amber zone."
+        },
+        {
+          "id": "raa4d4881d0b6",
+          "text": "Component NOISE-9121-5 carries a Violet label."
+        },
+        {
+          "id": "r1e8044685eb5",
+          "text": "Machine VM-9121 is in the Indigo zone."
+        },
+        {
+          "id": "r72ac66405405",
+          "text": "Component NOISE-9121-7 carries a Violet label."
+        },
+        {
+          "id": "r44587b45307b",
+          "text": "Component NOISE-9121-4 carries a Violet label."
+        },
+        {
+          "id": "r584a81e13ec8",
+          "text": "Component UNIT_9121_K-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Amber zone",
+        "b": "Indigo zone",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "dependency_chain-0-unknown_value",
+      "cluster_id": "dependency_chain-0",
+      "family": "dependency_chain",
+      "scenario": "unknown_value",
+      "query": "Which zone contains the machine hosting the release train for artifact OBJ-9120?",
+      "documents": [
+        {
+          "id": "rc6413b903cde",
+          "text": "Artifact OBJ-9120 belongs to release train RT-9120."
+        },
+        {
+          "id": "rd61dfb568a56",
+          "text": "Component NOISE-9120-1 carries a Violet label."
+        },
+        {
+          "id": "rfc1818f9a8ef",
+          "text": "Machine VM-9120 is in the unknown zone."
+        },
+        {
+          "id": "r9bdd939814a5",
+          "text": "Component NOISE-9120-5 carries a Violet label."
+        },
+        {
+          "id": "r87c211fb4050",
+          "text": "Component NOISE-9120-6 carries a Violet label."
+        },
+        {
+          "id": "rd1a6989b4450",
+          "text": "Component NOISE-9120-7 carries a Violet label."
+        },
+        {
+          "id": "rf246a83b7d15",
+          "text": "Release train RT-9120 is hosted by machine VM-9120."
+        },
+        {
+          "id": "r821887a3ee3e",
+          "text": "Component OBJ-9120-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rf2cac4b075a0",
+          "text": "Component NOISE-9120-3 carries a Violet label."
+        },
+        {
+          "id": "rb9f2b1c56153",
+          "text": "Component NOISE-9120-2 carries a Violet label."
+        },
+        {
+          "id": "r315507a7bc28",
+          "text": "Component NOISE-9120-0 carries a Violet label."
+        },
+        {
+          "id": "r38ff7a580649",
+          "text": "Component NOISE-9120-4 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Amber zone",
+        "b": "Indigo zone",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "storage-1-complete_b",
+      "cluster_id": "storage-1",
+      "family": "storage",
+      "scenario": "complete_b",
+      "query": "In which cabinet is component UNIT_9101_K stored?",
+      "documents": [
+        {
+          "id": "rf498df425a9e",
+          "text": "Component NOISE-9101-3 carries a Violet label."
+        },
+        {
+          "id": "rf66bc142d0f9",
+          "text": "Component NOISE-9101-0 carries a Violet label."
+        },
+        {
+          "id": "r01f2bbf02c0f",
+          "text": "Component NOISE-9101-4 carries a Violet label."
+        },
+        {
+          "id": "rff61ea6745a4",
+          "text": "Component NOISE-9101-7 carries a Violet label."
+        },
+        {
+          "id": "r9f213b858e92",
+          "text": "Component UNIT_9101_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rd8d36be357b8",
+          "text": "Component NOISE-9101-2 carries a Violet label."
+        },
+        {
+          "id": "r9d1701cd2f35",
+          "text": "Component NOISE-9101-1 carries a Violet label."
+        },
+        {
+          "id": "r32406feb9124",
+          "text": "Component NOISE-9101-5 carries a Violet label."
+        },
+        {
+          "id": "re1dfec302ef1",
+          "text": "Component UNIT_9101_K is stored in the Silver cabinet."
+        },
+        {
+          "id": "r6e755c911b30",
+          "text": "Component NOISE-9101-6 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Copper cabinet",
+        "b": "Silver cabinet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "dependency_chain-1-partial",
+      "cluster_id": "dependency_chain-1",
+      "family": "dependency_chain",
+      "scenario": "partial",
+      "query": "Which zone contains the machine hosting the release train for artifact UNIT_9121_K?",
+      "documents": [
+        {
+          "id": "r2dc2b3876cae",
+          "text": "Component NOISE-9121-2 carries a Violet label."
+        },
+        {
+          "id": "r97742fa93fa6",
+          "text": "Component NOISE-9121-3 carries a Violet label."
+        },
+        {
+          "id": "rd61407e11e40",
+          "text": "Component NOISE-9121-1 carries a Violet label."
+        },
+        {
+          "id": "re2406b454b9b",
+          "text": "Component NOISE-9121-6 carries a Violet label."
+        },
+        {
+          "id": "rb83efb6ffd85",
+          "text": "Component NOISE-9121-0 carries a Violet label."
+        },
+        {
+          "id": "r2c990cac3110",
+          "text": "Artifact UNIT_9121_K belongs to release train RT-9121."
+        },
+        {
+          "id": "raa4d4881d0b6",
+          "text": "Component NOISE-9121-5 carries a Violet label."
+        },
+        {
+          "id": "r72ac66405405",
+          "text": "Component NOISE-9121-7 carries a Violet label."
+        },
+        {
+          "id": "r44587b45307b",
+          "text": "Component NOISE-9121-4 carries a Violet label."
+        },
+        {
+          "id": "r584a81e13ec8",
+          "text": "Component UNIT_9121_K-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Amber zone",
+        "b": "Indigo zone",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "storage-1-absent",
+      "cluster_id": "storage-1",
+      "family": "storage",
+      "scenario": "absent",
+      "query": "In which cabinet is component UNIT_9101_K stored?",
+      "documents": [
+        {
+          "id": "rf498df425a9e",
+          "text": "Component NOISE-9101-3 carries a Violet label."
+        },
+        {
+          "id": "rf66bc142d0f9",
+          "text": "Component NOISE-9101-0 carries a Violet label."
+        },
+        {
+          "id": "r01f2bbf02c0f",
+          "text": "Component NOISE-9101-4 carries a Violet label."
+        },
+        {
+          "id": "rff61ea6745a4",
+          "text": "Component NOISE-9101-7 carries a Violet label."
+        },
+        {
+          "id": "r9f213b858e92",
+          "text": "Component UNIT_9101_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rd8d36be357b8",
+          "text": "Component NOISE-9101-2 carries a Violet label."
+        },
+        {
+          "id": "r9d1701cd2f35",
+          "text": "Component NOISE-9101-1 carries a Violet label."
+        },
+        {
+          "id": "r32406feb9124",
+          "text": "Component NOISE-9101-5 carries a Violet label."
+        },
+        {
+          "id": "r6e755c911b30",
+          "text": "Component NOISE-9101-6 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Copper cabinet",
+        "b": "Silver cabinet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "dependency_chain-0-unsupported_query",
+      "cluster_id": "dependency_chain-0",
+      "family": "dependency_chain",
+      "scenario": "unsupported_query",
+      "query": "Please answer: Which zone contains the machine hosting the release train for artifact OBJ-9120?",
+      "documents": [
+        {
+          "id": "rc6413b903cde",
+          "text": "Artifact OBJ-9120 belongs to release train RT-9120."
+        },
+        {
+          "id": "rd61dfb568a56",
+          "text": "Component NOISE-9120-1 carries a Violet label."
+        },
+        {
+          "id": "rfc1818f9a8ef",
+          "text": "Machine VM-9120 is in the Amber zone."
+        },
+        {
+          "id": "r9bdd939814a5",
+          "text": "Component NOISE-9120-5 carries a Violet label."
+        },
+        {
+          "id": "r87c211fb4050",
+          "text": "Component NOISE-9120-6 carries a Violet label."
+        },
+        {
+          "id": "rd1a6989b4450",
+          "text": "Component NOISE-9120-7 carries a Violet label."
+        },
+        {
+          "id": "rf246a83b7d15",
+          "text": "Release train RT-9120 is hosted by machine VM-9120."
+        },
+        {
+          "id": "r821887a3ee3e",
+          "text": "Component OBJ-9120-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rf2cac4b075a0",
+          "text": "Component NOISE-9120-3 carries a Violet label."
+        },
+        {
+          "id": "rb9f2b1c56153",
+          "text": "Component NOISE-9120-2 carries a Violet label."
+        },
+        {
+          "id": "r315507a7bc28",
+          "text": "Component NOISE-9120-0 carries a Violet label."
+        },
+        {
+          "id": "r38ff7a580649",
+          "text": "Component NOISE-9120-4 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Amber zone",
+        "b": "Indigo zone",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "dependency_chain-1-unknown_value",
+      "cluster_id": "dependency_chain-1",
+      "family": "dependency_chain",
+      "scenario": "unknown_value",
+      "query": "Which zone contains the machine hosting the release train for artifact UNIT_9121_K?",
+      "documents": [
+        {
+          "id": "r2dc2b3876cae",
+          "text": "Component NOISE-9121-2 carries a Violet label."
+        },
+        {
+          "id": "r97742fa93fa6",
+          "text": "Component NOISE-9121-3 carries a Violet label."
+        },
+        {
+          "id": "r0610056127d2",
+          "text": "Release train RT-9121 is hosted by machine VM-9121."
+        },
+        {
+          "id": "rd61407e11e40",
+          "text": "Component NOISE-9121-1 carries a Violet label."
+        },
+        {
+          "id": "re2406b454b9b",
+          "text": "Component NOISE-9121-6 carries a Violet label."
+        },
+        {
+          "id": "rb83efb6ffd85",
+          "text": "Component NOISE-9121-0 carries a Violet label."
+        },
+        {
+          "id": "r2c990cac3110",
+          "text": "Artifact UNIT_9121_K belongs to release train RT-9121."
+        },
+        {
+          "id": "raa4d4881d0b6",
+          "text": "Component NOISE-9121-5 carries a Violet label."
+        },
+        {
+          "id": "r1e8044685eb5",
+          "text": "Machine VM-9121 is in the unknown zone."
+        },
+        {
+          "id": "r72ac66405405",
+          "text": "Component NOISE-9121-7 carries a Violet label."
+        },
+        {
+          "id": "r44587b45307b",
+          "text": "Component NOISE-9121-4 carries a Violet label."
+        },
+        {
+          "id": "r584a81e13ec8",
+          "text": "Component UNIT_9121_K-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Amber zone",
+        "b": "Indigo zone",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "service_region-0-absent",
+      "cluster_id": "service_region-0",
+      "family": "service_region",
+      "scenario": "absent",
+      "query": "Which region contains the cluster hosting service OBJ-9110?",
+      "documents": [
+        {
+          "id": "r7f1dcbe40918",
+          "text": "Component NOISE-9110-5 carries a Violet label."
+        },
+        {
+          "id": "r277663bb1919",
+          "text": "Component NOISE-9110-3 carries a Violet label."
+        },
+        {
+          "id": "r053081ed2f22",
+          "text": "Component NOISE-9110-4 carries a Violet label."
+        },
+        {
+          "id": "rff81b6012618",
+          "text": "Component NOISE-9110-1 carries a Violet label."
+        },
+        {
+          "id": "r88074eaac823",
+          "text": "Component NOISE-9110-0 carries a Violet label."
+        },
+        {
+          "id": "rdc073132d9b4",
+          "text": "Component NOISE-9110-7 carries a Violet label."
+        },
+        {
+          "id": "r1d3eb4d1c210",
+          "text": "Component NOISE-9110-2 carries a Violet label."
+        },
+        {
+          "id": "r9ba7051639e8",
+          "text": "Component NOISE-9110-6 carries a Violet label."
+        },
+        {
+          "id": "r4ddb50b47ee4",
+          "text": "Component OBJ-9110-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Coastal",
+        "b": "Inland",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "latest_state-1-partial",
+      "cluster_id": "latest_state-1",
+      "family": "latest_state",
+      "scenario": "partial",
+      "query": "What is the most recent recorded state of service UNIT_9141_K? Compare observation dates.",
+      "documents": [
+        {
+          "id": "rdbb68bc65a02",
+          "text": "Component NOISE-9141-4 carries a Violet label."
+        },
+        {
+          "id": "re37455372c58",
+          "text": "Component UNIT_9141_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rfb2bef792646",
+          "text": "Component NOISE-9141-2 carries a Violet label."
+        },
+        {
+          "id": "r14465ba400f6",
+          "text": "Component NOISE-9141-7 carries a Violet label."
+        },
+        {
+          "id": "rbf27e56c16d9",
+          "text": "Component NOISE-9141-5 carries a Violet label."
+        },
+        {
+          "id": "rc06272a2c282",
+          "text": "Component NOISE-9141-0 carries a Violet label."
+        },
+        {
+          "id": "r829fe367439a",
+          "text": "Inventory note: UNIT_9141_K is listed; purchase order archived."
+        },
+        {
+          "id": "rc6364c58a586",
+          "text": "Component NOISE-9141-3 carries a Violet label."
+        },
+        {
+          "id": "r5dfb5076586f",
+          "text": "Component NOISE-9141-6 carries a Violet label."
+        },
+        {
+          "id": "r1254a8124f41",
+          "text": "Component NOISE-9141-1 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Enabled",
+        "b": "Disabled",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "latest_state-0-partial",
+      "cluster_id": "latest_state-0",
+      "family": "latest_state",
+      "scenario": "partial",
+      "query": "What is the most recent recorded state of service OBJ-9140? Compare observation dates.",
+      "documents": [
+        {
+          "id": "r99ec591b7b8e",
+          "text": "Component NOISE-9140-1 carries a Violet label."
+        },
+        {
+          "id": "rae8d86df76dc",
+          "text": "Component OBJ-9140-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r564119dc5b8a",
+          "text": "Component NOISE-9140-0 carries a Violet label."
+        },
+        {
+          "id": "rf25138bf01e4",
+          "text": "Component NOISE-9140-5 carries a Violet label."
+        },
+        {
+          "id": "rf36c82174e45",
+          "text": "Component NOISE-9140-4 carries a Violet label."
+        },
+        {
+          "id": "r1d049a3a8c19",
+          "text": "Inventory note: OBJ-9140 is listed; purchase order archived."
+        },
+        {
+          "id": "r1f6a5081366a",
+          "text": "Component NOISE-9140-3 carries a Violet label."
+        },
+        {
+          "id": "r8c3d95ec7ff8",
+          "text": "Component NOISE-9140-7 carries a Violet label."
+        },
+        {
+          "id": "rb1f4927e4161",
+          "text": "Component NOISE-9140-6 carries a Violet label."
+        },
+        {
+          "id": "r67347f06b4c7",
+          "text": "Component NOISE-9140-2 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Enabled",
+        "b": "Disabled",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "latest_state-0-decisive_or_distractor",
+      "cluster_id": "latest_state-0",
+      "family": "latest_state",
+      "scenario": "decisive_or_distractor",
+      "query": "What is the most recent recorded state of service OBJ-9140? Compare observation dates.",
+      "documents": [
+        {
+          "id": "r99ec591b7b8e",
+          "text": "Component NOISE-9140-1 carries a Violet label."
+        },
+        {
+          "id": "rae8d86df76dc",
+          "text": "Component OBJ-9140-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r564119dc5b8a",
+          "text": "Component NOISE-9140-0 carries a Violet label."
+        },
+        {
+          "id": "rff83a131992a",
+          "text": "2026-09-07: service OBJ-9140 was enabled."
+        },
+        {
+          "id": "rf25138bf01e4",
+          "text": "Component NOISE-9140-5 carries a Violet label."
+        },
+        {
+          "id": "rf36c82174e45",
+          "text": "Component NOISE-9140-4 carries a Violet label."
+        },
+        {
+          "id": "r317c20255402",
+          "text": "Inventory note: OBJ-9140 is listed; purchase order archived."
+        },
+        {
+          "id": "r1d049a3a8c19",
+          "text": "2026-04-03: service OBJ-9140 was disabled."
+        },
+        {
+          "id": "r1f6a5081366a",
+          "text": "Component NOISE-9140-3 carries a Violet label."
+        },
+        {
+          "id": "r8c3d95ec7ff8",
+          "text": "Component NOISE-9140-7 carries a Violet label."
+        },
+        {
+          "id": "rb1f4927e4161",
+          "text": "Component NOISE-9140-6 carries a Violet label."
+        },
+        {
+          "id": "r67347f06b4c7",
+          "text": "Component NOISE-9140-2 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Enabled",
+        "b": "Disabled",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "storage-1-partial",
+      "cluster_id": "storage-1",
+      "family": "storage",
+      "scenario": "partial",
+      "query": "In which cabinet is component UNIT_9101_K stored?",
+      "documents": [
+        {
+          "id": "rf498df425a9e",
+          "text": "Component NOISE-9101-3 carries a Violet label."
+        },
+        {
+          "id": "rf66bc142d0f9",
+          "text": "Component NOISE-9101-0 carries a Violet label."
+        },
+        {
+          "id": "r01f2bbf02c0f",
+          "text": "Component NOISE-9101-4 carries a Violet label."
+        },
+        {
+          "id": "rff61ea6745a4",
+          "text": "Component NOISE-9101-7 carries a Violet label."
+        },
+        {
+          "id": "r9f213b858e92",
+          "text": "Component UNIT_9101_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rd8d36be357b8",
+          "text": "Component NOISE-9101-2 carries a Violet label."
+        },
+        {
+          "id": "r9d1701cd2f35",
+          "text": "Component NOISE-9101-1 carries a Violet label."
+        },
+        {
+          "id": "r32406feb9124",
+          "text": "Component NOISE-9101-5 carries a Violet label."
+        },
+        {
+          "id": "re1dfec302ef1",
+          "text": "Inventory note: UNIT_9101_K is listed; purchase order archived."
+        },
+        {
+          "id": "r6e755c911b30",
+          "text": "Component NOISE-9101-6 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Copper cabinet",
+        "b": "Silver cabinet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "label-1-complete_a",
+      "cluster_id": "label-1",
+      "family": "label",
+      "scenario": "complete_a",
+      "query": "Which color label belongs to component UNIT_9151_K? Match its exact identifier.",
+      "documents": [
+        {
+          "id": "r6616dc753cba",
+          "text": "Component NOISE-9151-0 carries a Violet label."
+        },
+        {
+          "id": "rc055075f3a7c",
+          "text": "Component NOISE-9151-4 carries a Violet label."
+        },
+        {
+          "id": "r059d32693a06",
+          "text": "Component NOISE-9151-2 carries a Violet label."
+        },
+        {
+          "id": "rb7491ca5b699",
+          "text": "Component UNIT_9151_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rf657e9184924",
+          "text": "Component NOISE-9151-6 carries a Violet label."
+        },
+        {
+          "id": "r519004cf81d2",
+          "text": "Component UNIT_9151_K carries a Orange label."
+        },
+        {
+          "id": "r93209bb93e5d",
+          "text": "Component NOISE-9151-1 carries a Violet label."
+        },
+        {
+          "id": "r52698ed8c171",
+          "text": "Component NOISE-9151-3 carries a Violet label."
+        },
+        {
+          "id": "rf9ba92502bac",
+          "text": "Component NOISE-9151-7 carries a Violet label."
+        },
+        {
+          "id": "r6f98de3814bf",
+          "text": "Component NOISE-9151-5 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Orange",
+        "b": "Violet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "service_region-1-conflict",
+      "cluster_id": "service_region-1",
+      "family": "service_region",
+      "scenario": "conflict",
+      "query": "Which region contains the cluster hosting service UNIT_9111_K?",
+      "documents": [
+        {
+          "id": "r550c7566552c",
+          "text": "Component NOISE-9111-4 carries a Violet label."
+        },
+        {
+          "id": "r099f5cfd4d66",
+          "text": "Component NOISE-9111-1 carries a Violet label."
+        },
+        {
+          "id": "r0edb3dd4d0c8",
+          "text": "Component NOISE-9111-0 carries a Violet label."
+        },
+        {
+          "id": "r010c6e8901c2",
+          "text": "Component NOISE-9111-5 carries a Violet label."
+        },
+        {
+          "id": "rc4b1193fa2a4",
+          "text": "Component NOISE-9111-2 carries a Violet label."
+        },
+        {
+          "id": "r159973a55246",
+          "text": "Component NOISE-9111-6 carries a Violet label."
+        },
+        {
+          "id": "r2a4834cb0f77",
+          "text": "Cluster CL-9111 is located in the Coastal region."
+        },
+        {
+          "id": "r5cbdf256199f",
+          "text": "Component NOISE-9111-7 carries a Violet label."
+        },
+        {
+          "id": "r1ad8ce9483f5",
+          "text": "Component NOISE-9111-3 carries a Violet label."
+        },
+        {
+          "id": "r23d5fb61ef2f",
+          "text": "Cluster CL-9111 is located in the Inland region."
+        },
+        {
+          "id": "r6bfc447bdb41",
+          "text": "Service UNIT_9111_K runs on cluster CL-9111."
+        },
+        {
+          "id": "r946162bec0cb",
+          "text": "Component UNIT_9111_K-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Coastal",
+        "b": "Inland",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "service_region-1-unsupported_records",
+      "cluster_id": "service_region-1",
+      "family": "service_region",
+      "scenario": "unsupported_records",
+      "query": "Which region contains the cluster hosting service UNIT_9111_K?",
+      "documents": [
+        {
+          "id": "r550c7566552c",
+          "text": "Component NOISE-9111-4 carries a Violet label."
+        },
+        {
+          "id": "r099f5cfd4d66",
+          "text": "Component NOISE-9111-1 carries a Violet label."
+        },
+        {
+          "id": "r0edb3dd4d0c8",
+          "text": "Component NOISE-9111-0 carries a Violet label."
+        },
+        {
+          "id": "r010c6e8901c2",
+          "text": "Component NOISE-9111-5 carries a Violet label."
+        },
+        {
+          "id": "rc4b1193fa2a4",
+          "text": "Component NOISE-9111-2 carries a Violet label."
+        },
+        {
+          "id": "r159973a55246",
+          "text": "Component NOISE-9111-6 carries a Violet label."
+        },
+        {
+          "id": "r5cbdf256199f",
+          "text": "Component NOISE-9111-7 carries a Violet label."
+        },
+        {
+          "id": "r1ad8ce9483f5",
+          "text": "Component NOISE-9111-3 carries a Violet label."
+        },
+        {
+          "id": "r23d5fb61ef2f",
+          "text": "Recorded observation: Cluster CL-9111 is located in the Inland region."
+        },
+        {
+          "id": "r6bfc447bdb41",
+          "text": "Service UNIT_9111_K runs on cluster CL-9111."
+        },
+        {
+          "id": "r946162bec0cb",
+          "text": "Component UNIT_9111_K-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Coastal",
+        "b": "Inland",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "latest_state-1-complete_b",
+      "cluster_id": "latest_state-1",
+      "family": "latest_state",
+      "scenario": "complete_b",
+      "query": "What is the most recent recorded state of service UNIT_9141_K? Compare observation dates.",
+      "documents": [
+        {
+          "id": "rdbb68bc65a02",
+          "text": "Component NOISE-9141-4 carries a Violet label."
+        },
+        {
+          "id": "r3e1b9b358546",
+          "text": "2026-09-07: service UNIT_9141_K was disabled."
+        },
+        {
+          "id": "re37455372c58",
+          "text": "Component UNIT_9141_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rfb2bef792646",
+          "text": "Component NOISE-9141-2 carries a Violet label."
+        },
+        {
+          "id": "r14465ba400f6",
+          "text": "Component NOISE-9141-7 carries a Violet label."
+        },
+        {
+          "id": "rbf27e56c16d9",
+          "text": "Component NOISE-9141-5 carries a Violet label."
+        },
+        {
+          "id": "rc06272a2c282",
+          "text": "Component NOISE-9141-0 carries a Violet label."
+        },
+        {
+          "id": "r829fe367439a",
+          "text": "2026-04-03: service UNIT_9141_K was enabled."
+        },
+        {
+          "id": "rc6364c58a586",
+          "text": "Component NOISE-9141-3 carries a Violet label."
+        },
+        {
+          "id": "r5dfb5076586f",
+          "text": "Component NOISE-9141-6 carries a Violet label."
+        },
+        {
+          "id": "r1254a8124f41",
+          "text": "Component NOISE-9141-1 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Enabled",
+        "b": "Disabled",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "dependency_chain-0-unsupported_records",
+      "cluster_id": "dependency_chain-0",
+      "family": "dependency_chain",
+      "scenario": "unsupported_records",
+      "query": "Which zone contains the machine hosting the release train for artifact OBJ-9120?",
+      "documents": [
+        {
+          "id": "rc6413b903cde",
+          "text": "Artifact OBJ-9120 belongs to release train RT-9120."
+        },
+        {
+          "id": "rd61dfb568a56",
+          "text": "Component NOISE-9120-1 carries a Violet label."
+        },
+        {
+          "id": "rfc1818f9a8ef",
+          "text": "Recorded observation: Machine VM-9120 is in the Amber zone."
+        },
+        {
+          "id": "r9bdd939814a5",
+          "text": "Component NOISE-9120-5 carries a Violet label."
+        },
+        {
+          "id": "r87c211fb4050",
+          "text": "Component NOISE-9120-6 carries a Violet label."
+        },
+        {
+          "id": "rd1a6989b4450",
+          "text": "Component NOISE-9120-7 carries a Violet label."
+        },
+        {
+          "id": "rf246a83b7d15",
+          "text": "Release train RT-9120 is hosted by machine VM-9120."
+        },
+        {
+          "id": "r821887a3ee3e",
+          "text": "Component OBJ-9120-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rf2cac4b075a0",
+          "text": "Component NOISE-9120-3 carries a Violet label."
+        },
+        {
+          "id": "rb9f2b1c56153",
+          "text": "Component NOISE-9120-2 carries a Violet label."
+        },
+        {
+          "id": "r315507a7bc28",
+          "text": "Component NOISE-9120-0 carries a Violet label."
+        },
+        {
+          "id": "r38ff7a580649",
+          "text": "Component NOISE-9120-4 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Amber zone",
+        "b": "Indigo zone",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "release_rule-1-unsupported_records",
+      "cluster_id": "release_rule-1",
+      "family": "release_rule",
+      "scenario": "unsupported_records",
+      "query": "May build UNIT_9131_K be published? Publication is allowed exactly when its tests passed AND its review is approved. Either failed condition forbids publication.",
+      "documents": [
+        {
+          "id": "r58535008cf8d",
+          "text": "Component NOISE-9131-5 carries a Violet label."
+        },
+        {
+          "id": "r377f8b29872d",
+          "text": "Component NOISE-9131-7 carries a Violet label."
+        },
+        {
+          "id": "r6de7820d4287",
+          "text": "Component NOISE-9131-0 carries a Violet label."
+        },
+        {
+          "id": "re21bbd012997",
+          "text": "Recorded observation: Build UNIT_9131_K: review is not approved."
+        },
+        {
+          "id": "rc99a9c6ce4ca",
+          "text": "Build UNIT_9131_K: tests passed."
+        },
+        {
+          "id": "rd9b8851f0b0a",
+          "text": "Component NOISE-9131-3 carries a Violet label."
+        },
+        {
+          "id": "r98e0e73524db",
+          "text": "Component NOISE-9131-4 carries a Violet label."
+        },
+        {
+          "id": "r436373f6b366",
+          "text": "Component UNIT_9131_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r75b01a2f80ef",
+          "text": "Component NOISE-9131-1 carries a Violet label."
+        },
+        {
+          "id": "r98918b743122",
+          "text": "Component NOISE-9131-2 carries a Violet label."
+        },
+        {
+          "id": "r4d299fb245ae",
+          "text": "Component NOISE-9131-6 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Publication allowed",
+        "b": "Publication forbidden",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "release_rule-1-absent",
+      "cluster_id": "release_rule-1",
+      "family": "release_rule",
+      "scenario": "absent",
+      "query": "May build UNIT_9131_K be published? Publication is allowed exactly when its tests passed AND its review is approved. Either failed condition forbids publication.",
+      "documents": [
+        {
+          "id": "r58535008cf8d",
+          "text": "Component NOISE-9131-5 carries a Violet label."
+        },
+        {
+          "id": "r377f8b29872d",
+          "text": "Component NOISE-9131-7 carries a Violet label."
+        },
+        {
+          "id": "r6de7820d4287",
+          "text": "Component NOISE-9131-0 carries a Violet label."
+        },
+        {
+          "id": "rd9b8851f0b0a",
+          "text": "Component NOISE-9131-3 carries a Violet label."
+        },
+        {
+          "id": "r98e0e73524db",
+          "text": "Component NOISE-9131-4 carries a Violet label."
+        },
+        {
+          "id": "r436373f6b366",
+          "text": "Component UNIT_9131_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r75b01a2f80ef",
+          "text": "Component NOISE-9131-1 carries a Violet label."
+        },
+        {
+          "id": "r98918b743122",
+          "text": "Component NOISE-9131-2 carries a Violet label."
+        },
+        {
+          "id": "r4d299fb245ae",
+          "text": "Component NOISE-9131-6 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Publication allowed",
+        "b": "Publication forbidden",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "storage-1-conflict",
+      "cluster_id": "storage-1",
+      "family": "storage",
+      "scenario": "conflict",
+      "query": "In which cabinet is component UNIT_9101_K stored?",
+      "documents": [
+        {
+          "id": "rf498df425a9e",
+          "text": "Component NOISE-9101-3 carries a Violet label."
+        },
+        {
+          "id": "rf66bc142d0f9",
+          "text": "Component NOISE-9101-0 carries a Violet label."
+        },
+        {
+          "id": "r01f2bbf02c0f",
+          "text": "Component NOISE-9101-4 carries a Violet label."
+        },
+        {
+          "id": "rff61ea6745a4",
+          "text": "Component NOISE-9101-7 carries a Violet label."
+        },
+        {
+          "id": "r9f213b858e92",
+          "text": "Component UNIT_9101_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rd8d36be357b8",
+          "text": "Component NOISE-9101-2 carries a Violet label."
+        },
+        {
+          "id": "r45ba1976b4ca",
+          "text": "Component UNIT_9101_K is stored in the Copper cabinet."
+        },
+        {
+          "id": "r9d1701cd2f35",
+          "text": "Component NOISE-9101-1 carries a Violet label."
+        },
+        {
+          "id": "r32406feb9124",
+          "text": "Component NOISE-9101-5 carries a Violet label."
+        },
+        {
+          "id": "re1dfec302ef1",
+          "text": "Component UNIT_9101_K is stored in the Silver cabinet."
+        },
+        {
+          "id": "r6e755c911b30",
+          "text": "Component NOISE-9101-6 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Copper cabinet",
+        "b": "Silver cabinet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "label-1-partial",
+      "cluster_id": "label-1",
+      "family": "label",
+      "scenario": "partial",
+      "query": "Which color label belongs to component UNIT_9151_K? Match its exact identifier.",
+      "documents": [
+        {
+          "id": "r6616dc753cba",
+          "text": "Component NOISE-9151-0 carries a Violet label."
+        },
+        {
+          "id": "rc055075f3a7c",
+          "text": "Component NOISE-9151-4 carries a Violet label."
+        },
+        {
+          "id": "r059d32693a06",
+          "text": "Component NOISE-9151-2 carries a Violet label."
+        },
+        {
+          "id": "rb7491ca5b699",
+          "text": "Component UNIT_9151_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rf657e9184924",
+          "text": "Component NOISE-9151-6 carries a Violet label."
+        },
+        {
+          "id": "r519004cf81d2",
+          "text": "Inventory note: UNIT_9151_K is listed; purchase order archived."
+        },
+        {
+          "id": "r93209bb93e5d",
+          "text": "Component NOISE-9151-1 carries a Violet label."
+        },
+        {
+          "id": "r52698ed8c171",
+          "text": "Component NOISE-9151-3 carries a Violet label."
+        },
+        {
+          "id": "rf9ba92502bac",
+          "text": "Component NOISE-9151-7 carries a Violet label."
+        },
+        {
+          "id": "r6f98de3814bf",
+          "text": "Component NOISE-9151-5 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Orange",
+        "b": "Violet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "dependency_chain-1-absent",
+      "cluster_id": "dependency_chain-1",
+      "family": "dependency_chain",
+      "scenario": "absent",
+      "query": "Which zone contains the machine hosting the release train for artifact UNIT_9121_K?",
+      "documents": [
+        {
+          "id": "r2dc2b3876cae",
+          "text": "Component NOISE-9121-2 carries a Violet label."
+        },
+        {
+          "id": "r97742fa93fa6",
+          "text": "Component NOISE-9121-3 carries a Violet label."
+        },
+        {
+          "id": "rd61407e11e40",
+          "text": "Component NOISE-9121-1 carries a Violet label."
+        },
+        {
+          "id": "re2406b454b9b",
+          "text": "Component NOISE-9121-6 carries a Violet label."
+        },
+        {
+          "id": "rb83efb6ffd85",
+          "text": "Component NOISE-9121-0 carries a Violet label."
+        },
+        {
+          "id": "raa4d4881d0b6",
+          "text": "Component NOISE-9121-5 carries a Violet label."
+        },
+        {
+          "id": "r72ac66405405",
+          "text": "Component NOISE-9121-7 carries a Violet label."
+        },
+        {
+          "id": "r44587b45307b",
+          "text": "Component NOISE-9121-4 carries a Violet label."
+        },
+        {
+          "id": "r584a81e13ec8",
+          "text": "Component UNIT_9121_K-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Amber zone",
+        "b": "Indigo zone",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "dependency_chain-1-unsupported_records",
+      "cluster_id": "dependency_chain-1",
+      "family": "dependency_chain",
+      "scenario": "unsupported_records",
+      "query": "Which zone contains the machine hosting the release train for artifact UNIT_9121_K?",
+      "documents": [
+        {
+          "id": "r2dc2b3876cae",
+          "text": "Component NOISE-9121-2 carries a Violet label."
+        },
+        {
+          "id": "r97742fa93fa6",
+          "text": "Component NOISE-9121-3 carries a Violet label."
+        },
+        {
+          "id": "r0610056127d2",
+          "text": "Release train RT-9121 is hosted by machine VM-9121."
+        },
+        {
+          "id": "rd61407e11e40",
+          "text": "Component NOISE-9121-1 carries a Violet label."
+        },
+        {
+          "id": "re2406b454b9b",
+          "text": "Component NOISE-9121-6 carries a Violet label."
+        },
+        {
+          "id": "rb83efb6ffd85",
+          "text": "Component NOISE-9121-0 carries a Violet label."
+        },
+        {
+          "id": "r2c990cac3110",
+          "text": "Artifact UNIT_9121_K belongs to release train RT-9121."
+        },
+        {
+          "id": "raa4d4881d0b6",
+          "text": "Component NOISE-9121-5 carries a Violet label."
+        },
+        {
+          "id": "r1e8044685eb5",
+          "text": "Recorded observation: Machine VM-9121 is in the Indigo zone."
+        },
+        {
+          "id": "r72ac66405405",
+          "text": "Component NOISE-9121-7 carries a Violet label."
+        },
+        {
+          "id": "r44587b45307b",
+          "text": "Component NOISE-9121-4 carries a Violet label."
+        },
+        {
+          "id": "r584a81e13ec8",
+          "text": "Component UNIT_9121_K-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Amber zone",
+        "b": "Indigo zone",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "dependency_chain-1-complete_a",
+      "cluster_id": "dependency_chain-1",
+      "family": "dependency_chain",
+      "scenario": "complete_a",
+      "query": "Which zone contains the machine hosting the release train for artifact UNIT_9121_K?",
+      "documents": [
+        {
+          "id": "r2dc2b3876cae",
+          "text": "Component NOISE-9121-2 carries a Violet label."
+        },
+        {
+          "id": "r97742fa93fa6",
+          "text": "Component NOISE-9121-3 carries a Violet label."
+        },
+        {
+          "id": "r0610056127d2",
+          "text": "Release train RT-9121 is hosted by machine VM-9121."
+        },
+        {
+          "id": "rd61407e11e40",
+          "text": "Component NOISE-9121-1 carries a Violet label."
+        },
+        {
+          "id": "re2406b454b9b",
+          "text": "Component NOISE-9121-6 carries a Violet label."
+        },
+        {
+          "id": "rb83efb6ffd85",
+          "text": "Component NOISE-9121-0 carries a Violet label."
+        },
+        {
+          "id": "r2c990cac3110",
+          "text": "Artifact UNIT_9121_K belongs to release train RT-9121."
+        },
+        {
+          "id": "raa4d4881d0b6",
+          "text": "Component NOISE-9121-5 carries a Violet label."
+        },
+        {
+          "id": "r1e8044685eb5",
+          "text": "Machine VM-9121 is in the Amber zone."
+        },
+        {
+          "id": "r72ac66405405",
+          "text": "Component NOISE-9121-7 carries a Violet label."
+        },
+        {
+          "id": "r44587b45307b",
+          "text": "Component NOISE-9121-4 carries a Violet label."
+        },
+        {
+          "id": "r584a81e13ec8",
+          "text": "Component UNIT_9121_K-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Amber zone",
+        "b": "Indigo zone",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "release_rule-1-partial",
+      "cluster_id": "release_rule-1",
+      "family": "release_rule",
+      "scenario": "partial",
+      "query": "May build UNIT_9131_K be published? Publication is allowed exactly when its tests passed AND its review is approved. Either failed condition forbids publication.",
+      "documents": [
+        {
+          "id": "r58535008cf8d",
+          "text": "Component NOISE-9131-5 carries a Violet label."
+        },
+        {
+          "id": "r377f8b29872d",
+          "text": "Component NOISE-9131-7 carries a Violet label."
+        },
+        {
+          "id": "r6de7820d4287",
+          "text": "Component NOISE-9131-0 carries a Violet label."
+        },
+        {
+          "id": "rc99a9c6ce4ca",
+          "text": "Build UNIT_9131_K: tests passed."
+        },
+        {
+          "id": "rd9b8851f0b0a",
+          "text": "Component NOISE-9131-3 carries a Violet label."
+        },
+        {
+          "id": "r98e0e73524db",
+          "text": "Component NOISE-9131-4 carries a Violet label."
+        },
+        {
+          "id": "r436373f6b366",
+          "text": "Component UNIT_9131_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r75b01a2f80ef",
+          "text": "Component NOISE-9131-1 carries a Violet label."
+        },
+        {
+          "id": "r98918b743122",
+          "text": "Component NOISE-9131-2 carries a Violet label."
+        },
+        {
+          "id": "r4d299fb245ae",
+          "text": "Component NOISE-9131-6 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Publication allowed",
+        "b": "Publication forbidden",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "storage-0-complete_a",
+      "cluster_id": "storage-0",
+      "family": "storage",
+      "scenario": "complete_a",
+      "query": "In which cabinet is component OBJ-9100 stored?",
+      "documents": [
+        {
+          "id": "r52f576331436",
+          "text": "Component NOISE-9100-1 carries a Violet label."
+        },
+        {
+          "id": "r6cb63278a49e",
+          "text": "Component NOISE-9100-2 carries a Violet label."
+        },
+        {
+          "id": "rf601ba8c4108",
+          "text": "Component NOISE-9100-3 carries a Violet label."
+        },
+        {
+          "id": "rf6a0ff692ec6",
+          "text": "Component OBJ-9100-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r3208e3d553d7",
+          "text": "Component NOISE-9100-0 carries a Violet label."
+        },
+        {
+          "id": "r574341971347",
+          "text": "Component NOISE-9100-6 carries a Violet label."
+        },
+        {
+          "id": "r07b76c75fe75",
+          "text": "Component NOISE-9100-4 carries a Violet label."
+        },
+        {
+          "id": "r20f0626efc33",
+          "text": "Component NOISE-9100-5 carries a Violet label."
+        },
+        {
+          "id": "r385af868723e",
+          "text": "Component NOISE-9100-7 carries a Violet label."
+        },
+        {
+          "id": "reb662e6b1f54",
+          "text": "Component OBJ-9100 is stored in the Copper cabinet."
+        }
+      ],
+      "options": {
+        "a": "Copper cabinet",
+        "b": "Silver cabinet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "release_rule-0-unsupported_records",
+      "cluster_id": "release_rule-0",
+      "family": "release_rule",
+      "scenario": "unsupported_records",
+      "query": "May build OBJ-9130 be published? Publication is allowed exactly when its tests passed AND its review is approved. Either failed condition forbids publication.",
+      "documents": [
+        {
+          "id": "ra1be4ed6bdbc",
+          "text": "Component NOISE-9130-5 carries a Violet label."
+        },
+        {
+          "id": "r05447843fd29",
+          "text": "Component NOISE-9130-1 carries a Violet label."
+        },
+        {
+          "id": "r8f2292f25a9d",
+          "text": "Recorded observation: Build OBJ-9130: review is approved."
+        },
+        {
+          "id": "rb4fcd05bf745",
+          "text": "Component NOISE-9130-2 carries a Violet label."
+        },
+        {
+          "id": "r2814cbbdad34",
+          "text": "Component OBJ-9130-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r849adefea147",
+          "text": "Component NOISE-9130-4 carries a Violet label."
+        },
+        {
+          "id": "rbce3170c2852",
+          "text": "Component NOISE-9130-3 carries a Violet label."
+        },
+        {
+          "id": "r0fc69c675c93",
+          "text": "Component NOISE-9130-6 carries a Violet label."
+        },
+        {
+          "id": "re94e9edab9cf",
+          "text": "Build OBJ-9130: tests passed."
+        },
+        {
+          "id": "rf4409bc866cf",
+          "text": "Component NOISE-9130-7 carries a Violet label."
+        },
+        {
+          "id": "r24bb93bb24f4",
+          "text": "Component NOISE-9130-0 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Publication allowed",
+        "b": "Publication forbidden",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "storage-0-conflict",
+      "cluster_id": "storage-0",
+      "family": "storage",
+      "scenario": "conflict",
+      "query": "In which cabinet is component OBJ-9100 stored?",
+      "documents": [
+        {
+          "id": "r301f365e41cd",
+          "text": "Component OBJ-9100 is stored in the Silver cabinet."
+        },
+        {
+          "id": "r52f576331436",
+          "text": "Component NOISE-9100-1 carries a Violet label."
+        },
+        {
+          "id": "r6cb63278a49e",
+          "text": "Component NOISE-9100-2 carries a Violet label."
+        },
+        {
+          "id": "rf601ba8c4108",
+          "text": "Component NOISE-9100-3 carries a Violet label."
+        },
+        {
+          "id": "rf6a0ff692ec6",
+          "text": "Component OBJ-9100-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r3208e3d553d7",
+          "text": "Component NOISE-9100-0 carries a Violet label."
+        },
+        {
+          "id": "r574341971347",
+          "text": "Component NOISE-9100-6 carries a Violet label."
+        },
+        {
+          "id": "r07b76c75fe75",
+          "text": "Component NOISE-9100-4 carries a Violet label."
+        },
+        {
+          "id": "r20f0626efc33",
+          "text": "Component NOISE-9100-5 carries a Violet label."
+        },
+        {
+          "id": "r385af868723e",
+          "text": "Component NOISE-9100-7 carries a Violet label."
+        },
+        {
+          "id": "reb662e6b1f54",
+          "text": "Component OBJ-9100 is stored in the Copper cabinet."
+        }
+      ],
+      "options": {
+        "a": "Copper cabinet",
+        "b": "Silver cabinet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "release_rule-0-unsupported_query",
+      "cluster_id": "release_rule-0",
+      "family": "release_rule",
+      "scenario": "unsupported_query",
+      "query": "Please answer: May build OBJ-9130 be published? Publication is allowed exactly when its tests passed AND its review is approved. Either failed condition forbids publication.",
+      "documents": [
+        {
+          "id": "ra1be4ed6bdbc",
+          "text": "Component NOISE-9130-5 carries a Violet label."
+        },
+        {
+          "id": "r05447843fd29",
+          "text": "Component NOISE-9130-1 carries a Violet label."
+        },
+        {
+          "id": "r8f2292f25a9d",
+          "text": "Build OBJ-9130: review is approved."
+        },
+        {
+          "id": "rb4fcd05bf745",
+          "text": "Component NOISE-9130-2 carries a Violet label."
+        },
+        {
+          "id": "r2814cbbdad34",
+          "text": "Component OBJ-9130-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r849adefea147",
+          "text": "Component NOISE-9130-4 carries a Violet label."
+        },
+        {
+          "id": "rbce3170c2852",
+          "text": "Component NOISE-9130-3 carries a Violet label."
+        },
+        {
+          "id": "r0fc69c675c93",
+          "text": "Component NOISE-9130-6 carries a Violet label."
+        },
+        {
+          "id": "re94e9edab9cf",
+          "text": "Build OBJ-9130: tests passed."
+        },
+        {
+          "id": "rf4409bc866cf",
+          "text": "Component NOISE-9130-7 carries a Violet label."
+        },
+        {
+          "id": "r24bb93bb24f4",
+          "text": "Component NOISE-9130-0 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Publication allowed",
+        "b": "Publication forbidden",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "storage-0-absent",
+      "cluster_id": "storage-0",
+      "family": "storage",
+      "scenario": "absent",
+      "query": "In which cabinet is component OBJ-9100 stored?",
+      "documents": [
+        {
+          "id": "r52f576331436",
+          "text": "Component NOISE-9100-1 carries a Violet label."
+        },
+        {
+          "id": "r6cb63278a49e",
+          "text": "Component NOISE-9100-2 carries a Violet label."
+        },
+        {
+          "id": "rf601ba8c4108",
+          "text": "Component NOISE-9100-3 carries a Violet label."
+        },
+        {
+          "id": "rf6a0ff692ec6",
+          "text": "Component OBJ-9100-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r3208e3d553d7",
+          "text": "Component NOISE-9100-0 carries a Violet label."
+        },
+        {
+          "id": "r574341971347",
+          "text": "Component NOISE-9100-6 carries a Violet label."
+        },
+        {
+          "id": "r07b76c75fe75",
+          "text": "Component NOISE-9100-4 carries a Violet label."
+        },
+        {
+          "id": "r20f0626efc33",
+          "text": "Component NOISE-9100-5 carries a Violet label."
+        },
+        {
+          "id": "r385af868723e",
+          "text": "Component NOISE-9100-7 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Copper cabinet",
+        "b": "Silver cabinet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "label-0-conflict",
+      "cluster_id": "label-0",
+      "family": "label",
+      "scenario": "conflict",
+      "query": "Which color label belongs to component OBJ-9150? Match its exact identifier.",
+      "documents": [
+        {
+          "id": "r2b663b4d44f5",
+          "text": "Component NOISE-9150-7 carries a Violet label."
+        },
+        {
+          "id": "r2d129344d240",
+          "text": "Component NOISE-9150-4 carries a Violet label."
+        },
+        {
+          "id": "r8602aa961e6e",
+          "text": "Component OBJ-9150-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r1bd2a727ebac",
+          "text": "Component OBJ-9150 carries a Violet label."
+        },
+        {
+          "id": "r95e7e27205c6",
+          "text": "Component NOISE-9150-2 carries a Violet label."
+        },
+        {
+          "id": "r353ac8e6149c",
+          "text": "Component NOISE-9150-5 carries a Violet label."
+        },
+        {
+          "id": "r16339fcd007a",
+          "text": "Component NOISE-9150-6 carries a Violet label."
+        },
+        {
+          "id": "r06bd810fd14a",
+          "text": "Component OBJ-9150 carries a Orange label."
+        },
+        {
+          "id": "r42ddc8933b94",
+          "text": "Component NOISE-9150-3 carries a Violet label."
+        },
+        {
+          "id": "rc65671f60117",
+          "text": "Component NOISE-9150-0 carries a Violet label."
+        },
+        {
+          "id": "rc431876dafb4",
+          "text": "Component NOISE-9150-1 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Orange",
+        "b": "Violet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "dependency_chain-0-partial",
+      "cluster_id": "dependency_chain-0",
+      "family": "dependency_chain",
+      "scenario": "partial",
+      "query": "Which zone contains the machine hosting the release train for artifact OBJ-9120?",
+      "documents": [
+        {
+          "id": "rc6413b903cde",
+          "text": "Artifact OBJ-9120 belongs to release train RT-9120."
+        },
+        {
+          "id": "rd61dfb568a56",
+          "text": "Component NOISE-9120-1 carries a Violet label."
+        },
+        {
+          "id": "r9bdd939814a5",
+          "text": "Component NOISE-9120-5 carries a Violet label."
+        },
+        {
+          "id": "r87c211fb4050",
+          "text": "Component NOISE-9120-6 carries a Violet label."
+        },
+        {
+          "id": "rd1a6989b4450",
+          "text": "Component NOISE-9120-7 carries a Violet label."
+        },
+        {
+          "id": "rf246a83b7d15",
+          "text": "Release train RT-9120 is hosted by machine VM-9120."
+        },
+        {
+          "id": "r821887a3ee3e",
+          "text": "Component OBJ-9120-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rf2cac4b075a0",
+          "text": "Component NOISE-9120-3 carries a Violet label."
+        },
+        {
+          "id": "rb9f2b1c56153",
+          "text": "Component NOISE-9120-2 carries a Violet label."
+        },
+        {
+          "id": "r315507a7bc28",
+          "text": "Component NOISE-9120-0 carries a Violet label."
+        },
+        {
+          "id": "r38ff7a580649",
+          "text": "Component NOISE-9120-4 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Amber zone",
+        "b": "Indigo zone",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "service_region-1-complete_a",
+      "cluster_id": "service_region-1",
+      "family": "service_region",
+      "scenario": "complete_a",
+      "query": "Which region contains the cluster hosting service UNIT_9111_K?",
+      "documents": [
+        {
+          "id": "r550c7566552c",
+          "text": "Component NOISE-9111-4 carries a Violet label."
+        },
+        {
+          "id": "r099f5cfd4d66",
+          "text": "Component NOISE-9111-1 carries a Violet label."
+        },
+        {
+          "id": "r0edb3dd4d0c8",
+          "text": "Component NOISE-9111-0 carries a Violet label."
+        },
+        {
+          "id": "r010c6e8901c2",
+          "text": "Component NOISE-9111-5 carries a Violet label."
+        },
+        {
+          "id": "rc4b1193fa2a4",
+          "text": "Component NOISE-9111-2 carries a Violet label."
+        },
+        {
+          "id": "r159973a55246",
+          "text": "Component NOISE-9111-6 carries a Violet label."
+        },
+        {
+          "id": "r5cbdf256199f",
+          "text": "Component NOISE-9111-7 carries a Violet label."
+        },
+        {
+          "id": "r1ad8ce9483f5",
+          "text": "Component NOISE-9111-3 carries a Violet label."
+        },
+        {
+          "id": "r23d5fb61ef2f",
+          "text": "Cluster CL-9111 is located in the Coastal region."
+        },
+        {
+          "id": "r6bfc447bdb41",
+          "text": "Service UNIT_9111_K runs on cluster CL-9111."
+        },
+        {
+          "id": "r946162bec0cb",
+          "text": "Component UNIT_9111_K-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Coastal",
+        "b": "Inland",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "release_rule-0-absent",
+      "cluster_id": "release_rule-0",
+      "family": "release_rule",
+      "scenario": "absent",
+      "query": "May build OBJ-9130 be published? Publication is allowed exactly when its tests passed AND its review is approved. Either failed condition forbids publication.",
+      "documents": [
+        {
+          "id": "ra1be4ed6bdbc",
+          "text": "Component NOISE-9130-5 carries a Violet label."
+        },
+        {
+          "id": "r05447843fd29",
+          "text": "Component NOISE-9130-1 carries a Violet label."
+        },
+        {
+          "id": "rb4fcd05bf745",
+          "text": "Component NOISE-9130-2 carries a Violet label."
+        },
+        {
+          "id": "r2814cbbdad34",
+          "text": "Component OBJ-9130-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r849adefea147",
+          "text": "Component NOISE-9130-4 carries a Violet label."
+        },
+        {
+          "id": "rbce3170c2852",
+          "text": "Component NOISE-9130-3 carries a Violet label."
+        },
+        {
+          "id": "r0fc69c675c93",
+          "text": "Component NOISE-9130-6 carries a Violet label."
+        },
+        {
+          "id": "rf4409bc866cf",
+          "text": "Component NOISE-9130-7 carries a Violet label."
+        },
+        {
+          "id": "r24bb93bb24f4",
+          "text": "Component NOISE-9130-0 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Publication allowed",
+        "b": "Publication forbidden",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "label-1-unknown_value",
+      "cluster_id": "label-1",
+      "family": "label",
+      "scenario": "unknown_value",
+      "query": "Which color label belongs to component UNIT_9151_K? Match its exact identifier.",
+      "documents": [
+        {
+          "id": "r6616dc753cba",
+          "text": "Component NOISE-9151-0 carries a Violet label."
+        },
+        {
+          "id": "rc055075f3a7c",
+          "text": "Component NOISE-9151-4 carries a Violet label."
+        },
+        {
+          "id": "r059d32693a06",
+          "text": "Component NOISE-9151-2 carries a Violet label."
+        },
+        {
+          "id": "rb7491ca5b699",
+          "text": "Component UNIT_9151_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rf657e9184924",
+          "text": "Component NOISE-9151-6 carries a Violet label."
+        },
+        {
+          "id": "r519004cf81d2",
+          "text": "Component UNIT_9151_K carries a unknown label."
+        },
+        {
+          "id": "r93209bb93e5d",
+          "text": "Component NOISE-9151-1 carries a Violet label."
+        },
+        {
+          "id": "r52698ed8c171",
+          "text": "Component NOISE-9151-3 carries a Violet label."
+        },
+        {
+          "id": "rf9ba92502bac",
+          "text": "Component NOISE-9151-7 carries a Violet label."
+        },
+        {
+          "id": "r6f98de3814bf",
+          "text": "Component NOISE-9151-5 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Orange",
+        "b": "Violet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "service_region-0-partial",
+      "cluster_id": "service_region-0",
+      "family": "service_region",
+      "scenario": "partial",
+      "query": "Which region contains the cluster hosting service OBJ-9110?",
+      "documents": [
+        {
+          "id": "r7f1dcbe40918",
+          "text": "Component NOISE-9110-5 carries a Violet label."
+        },
+        {
+          "id": "r277663bb1919",
+          "text": "Component NOISE-9110-3 carries a Violet label."
+        },
+        {
+          "id": "r053081ed2f22",
+          "text": "Component NOISE-9110-4 carries a Violet label."
+        },
+        {
+          "id": "rff81b6012618",
+          "text": "Component NOISE-9110-1 carries a Violet label."
+        },
+        {
+          "id": "r88074eaac823",
+          "text": "Component NOISE-9110-0 carries a Violet label."
+        },
+        {
+          "id": "rdc073132d9b4",
+          "text": "Component NOISE-9110-7 carries a Violet label."
+        },
+        {
+          "id": "r1d3eb4d1c210",
+          "text": "Component NOISE-9110-2 carries a Violet label."
+        },
+        {
+          "id": "r9ba7051639e8",
+          "text": "Component NOISE-9110-6 carries a Violet label."
+        },
+        {
+          "id": "r8d3790b53ac6",
+          "text": "Service OBJ-9110 runs on cluster CL-9110."
+        },
+        {
+          "id": "r4ddb50b47ee4",
+          "text": "Component OBJ-9110-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Coastal",
+        "b": "Inland",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "storage-1-decisive_or_distractor",
+      "cluster_id": "storage-1",
+      "family": "storage",
+      "scenario": "decisive_or_distractor",
+      "query": "In which cabinet is component UNIT_9101_K stored?",
+      "documents": [
+        {
+          "id": "rf498df425a9e",
+          "text": "Component NOISE-9101-3 carries a Violet label."
+        },
+        {
+          "id": "rf66bc142d0f9",
+          "text": "Component NOISE-9101-0 carries a Violet label."
+        },
+        {
+          "id": "r01f2bbf02c0f",
+          "text": "Component NOISE-9101-4 carries a Violet label."
+        },
+        {
+          "id": "rff61ea6745a4",
+          "text": "Component NOISE-9101-7 carries a Violet label."
+        },
+        {
+          "id": "r9f213b858e92",
+          "text": "Component UNIT_9101_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rd8d36be357b8",
+          "text": "Component NOISE-9101-2 carries a Violet label."
+        },
+        {
+          "id": "r45ba1976b4ca",
+          "text": "Inventory note: UNIT_9101_K is listed; purchase order archived."
+        },
+        {
+          "id": "r9d1701cd2f35",
+          "text": "Component NOISE-9101-1 carries a Violet label."
+        },
+        {
+          "id": "r32406feb9124",
+          "text": "Component NOISE-9101-5 carries a Violet label."
+        },
+        {
+          "id": "re1dfec302ef1",
+          "text": "Component UNIT_9101_K is stored in the Silver cabinet."
+        },
+        {
+          "id": "r6e755c911b30",
+          "text": "Component NOISE-9101-6 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Copper cabinet",
+        "b": "Silver cabinet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "latest_state-0-complete_b",
+      "cluster_id": "latest_state-0",
+      "family": "latest_state",
+      "scenario": "complete_b",
+      "query": "What is the most recent recorded state of service OBJ-9140? Compare observation dates.",
+      "documents": [
+        {
+          "id": "r99ec591b7b8e",
+          "text": "Component NOISE-9140-1 carries a Violet label."
+        },
+        {
+          "id": "rae8d86df76dc",
+          "text": "Component OBJ-9140-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r564119dc5b8a",
+          "text": "Component NOISE-9140-0 carries a Violet label."
+        },
+        {
+          "id": "rff83a131992a",
+          "text": "2026-09-07: service OBJ-9140 was disabled."
+        },
+        {
+          "id": "rf25138bf01e4",
+          "text": "Component NOISE-9140-5 carries a Violet label."
+        },
+        {
+          "id": "rf36c82174e45",
+          "text": "Component NOISE-9140-4 carries a Violet label."
+        },
+        {
+          "id": "r1d049a3a8c19",
+          "text": "2026-04-03: service OBJ-9140 was enabled."
+        },
+        {
+          "id": "r1f6a5081366a",
+          "text": "Component NOISE-9140-3 carries a Violet label."
+        },
+        {
+          "id": "r8c3d95ec7ff8",
+          "text": "Component NOISE-9140-7 carries a Violet label."
+        },
+        {
+          "id": "rb1f4927e4161",
+          "text": "Component NOISE-9140-6 carries a Violet label."
+        },
+        {
+          "id": "r67347f06b4c7",
+          "text": "Component NOISE-9140-2 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Enabled",
+        "b": "Disabled",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "latest_state-1-unsupported_records",
+      "cluster_id": "latest_state-1",
+      "family": "latest_state",
+      "scenario": "unsupported_records",
+      "query": "What is the most recent recorded state of service UNIT_9141_K? Compare observation dates.",
+      "documents": [
+        {
+          "id": "rdbb68bc65a02",
+          "text": "Component NOISE-9141-4 carries a Violet label."
+        },
+        {
+          "id": "r3e1b9b358546",
+          "text": "Recorded observation: 2026-09-07: service UNIT_9141_K was disabled."
+        },
+        {
+          "id": "re37455372c58",
+          "text": "Component UNIT_9141_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rfb2bef792646",
+          "text": "Component NOISE-9141-2 carries a Violet label."
+        },
+        {
+          "id": "r14465ba400f6",
+          "text": "Component NOISE-9141-7 carries a Violet label."
+        },
+        {
+          "id": "rbf27e56c16d9",
+          "text": "Component NOISE-9141-5 carries a Violet label."
+        },
+        {
+          "id": "rc06272a2c282",
+          "text": "Component NOISE-9141-0 carries a Violet label."
+        },
+        {
+          "id": "r829fe367439a",
+          "text": "2026-04-03: service UNIT_9141_K was enabled."
+        },
+        {
+          "id": "rc6364c58a586",
+          "text": "Component NOISE-9141-3 carries a Violet label."
+        },
+        {
+          "id": "r5dfb5076586f",
+          "text": "Component NOISE-9141-6 carries a Violet label."
+        },
+        {
+          "id": "r1254a8124f41",
+          "text": "Component NOISE-9141-1 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Enabled",
+        "b": "Disabled",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "release_rule-1-unsupported_query",
+      "cluster_id": "release_rule-1",
+      "family": "release_rule",
+      "scenario": "unsupported_query",
+      "query": "Please answer: May build UNIT_9131_K be published? Publication is allowed exactly when its tests passed AND its review is approved. Either failed condition forbids publication.",
+      "documents": [
+        {
+          "id": "r58535008cf8d",
+          "text": "Component NOISE-9131-5 carries a Violet label."
+        },
+        {
+          "id": "r377f8b29872d",
+          "text": "Component NOISE-9131-7 carries a Violet label."
+        },
+        {
+          "id": "r6de7820d4287",
+          "text": "Component NOISE-9131-0 carries a Violet label."
+        },
+        {
+          "id": "re21bbd012997",
+          "text": "Build UNIT_9131_K: review is not approved."
+        },
+        {
+          "id": "rc99a9c6ce4ca",
+          "text": "Build UNIT_9131_K: tests passed."
+        },
+        {
+          "id": "rd9b8851f0b0a",
+          "text": "Component NOISE-9131-3 carries a Violet label."
+        },
+        {
+          "id": "r98e0e73524db",
+          "text": "Component NOISE-9131-4 carries a Violet label."
+        },
+        {
+          "id": "r436373f6b366",
+          "text": "Component UNIT_9131_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r75b01a2f80ef",
+          "text": "Component NOISE-9131-1 carries a Violet label."
+        },
+        {
+          "id": "r98918b743122",
+          "text": "Component NOISE-9131-2 carries a Violet label."
+        },
+        {
+          "id": "r4d299fb245ae",
+          "text": "Component NOISE-9131-6 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Publication allowed",
+        "b": "Publication forbidden",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "dependency_chain-0-absent",
+      "cluster_id": "dependency_chain-0",
+      "family": "dependency_chain",
+      "scenario": "absent",
+      "query": "Which zone contains the machine hosting the release train for artifact OBJ-9120?",
+      "documents": [
+        {
+          "id": "rd61dfb568a56",
+          "text": "Component NOISE-9120-1 carries a Violet label."
+        },
+        {
+          "id": "r9bdd939814a5",
+          "text": "Component NOISE-9120-5 carries a Violet label."
+        },
+        {
+          "id": "r87c211fb4050",
+          "text": "Component NOISE-9120-6 carries a Violet label."
+        },
+        {
+          "id": "rd1a6989b4450",
+          "text": "Component NOISE-9120-7 carries a Violet label."
+        },
+        {
+          "id": "r821887a3ee3e",
+          "text": "Component OBJ-9120-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rf2cac4b075a0",
+          "text": "Component NOISE-9120-3 carries a Violet label."
+        },
+        {
+          "id": "rb9f2b1c56153",
+          "text": "Component NOISE-9120-2 carries a Violet label."
+        },
+        {
+          "id": "r315507a7bc28",
+          "text": "Component NOISE-9120-0 carries a Violet label."
+        },
+        {
+          "id": "r38ff7a580649",
+          "text": "Component NOISE-9120-4 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Amber zone",
+        "b": "Indigo zone",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "service_region-0-complete_a",
+      "cluster_id": "service_region-0",
+      "family": "service_region",
+      "scenario": "complete_a",
+      "query": "Which region contains the cluster hosting service OBJ-9110?",
+      "documents": [
+        {
+          "id": "r7f53f0c9c3b8",
+          "text": "Cluster CL-9110 is located in the Coastal region."
+        },
+        {
+          "id": "r7f1dcbe40918",
+          "text": "Component NOISE-9110-5 carries a Violet label."
+        },
+        {
+          "id": "r277663bb1919",
+          "text": "Component NOISE-9110-3 carries a Violet label."
+        },
+        {
+          "id": "r053081ed2f22",
+          "text": "Component NOISE-9110-4 carries a Violet label."
+        },
+        {
+          "id": "rff81b6012618",
+          "text": "Component NOISE-9110-1 carries a Violet label."
+        },
+        {
+          "id": "r88074eaac823",
+          "text": "Component NOISE-9110-0 carries a Violet label."
+        },
+        {
+          "id": "rdc073132d9b4",
+          "text": "Component NOISE-9110-7 carries a Violet label."
+        },
+        {
+          "id": "r1d3eb4d1c210",
+          "text": "Component NOISE-9110-2 carries a Violet label."
+        },
+        {
+          "id": "r9ba7051639e8",
+          "text": "Component NOISE-9110-6 carries a Violet label."
+        },
+        {
+          "id": "r8d3790b53ac6",
+          "text": "Service OBJ-9110 runs on cluster CL-9110."
+        },
+        {
+          "id": "r4ddb50b47ee4",
+          "text": "Component OBJ-9110-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Coastal",
+        "b": "Inland",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "dependency_chain-1-unsupported_query",
+      "cluster_id": "dependency_chain-1",
+      "family": "dependency_chain",
+      "scenario": "unsupported_query",
+      "query": "Please answer: Which zone contains the machine hosting the release train for artifact UNIT_9121_K?",
+      "documents": [
+        {
+          "id": "r2dc2b3876cae",
+          "text": "Component NOISE-9121-2 carries a Violet label."
+        },
+        {
+          "id": "r97742fa93fa6",
+          "text": "Component NOISE-9121-3 carries a Violet label."
+        },
+        {
+          "id": "r0610056127d2",
+          "text": "Release train RT-9121 is hosted by machine VM-9121."
+        },
+        {
+          "id": "rd61407e11e40",
+          "text": "Component NOISE-9121-1 carries a Violet label."
+        },
+        {
+          "id": "re2406b454b9b",
+          "text": "Component NOISE-9121-6 carries a Violet label."
+        },
+        {
+          "id": "rb83efb6ffd85",
+          "text": "Component NOISE-9121-0 carries a Violet label."
+        },
+        {
+          "id": "r2c990cac3110",
+          "text": "Artifact UNIT_9121_K belongs to release train RT-9121."
+        },
+        {
+          "id": "raa4d4881d0b6",
+          "text": "Component NOISE-9121-5 carries a Violet label."
+        },
+        {
+          "id": "r1e8044685eb5",
+          "text": "Machine VM-9121 is in the Indigo zone."
+        },
+        {
+          "id": "r72ac66405405",
+          "text": "Component NOISE-9121-7 carries a Violet label."
+        },
+        {
+          "id": "r44587b45307b",
+          "text": "Component NOISE-9121-4 carries a Violet label."
+        },
+        {
+          "id": "r584a81e13ec8",
+          "text": "Component UNIT_9121_K-COPY is stored in the Silver cabinet."
+        }
+      ],
+      "options": {
+        "a": "Amber zone",
+        "b": "Indigo zone",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "latest_state-1-absent",
+      "cluster_id": "latest_state-1",
+      "family": "latest_state",
+      "scenario": "absent",
+      "query": "What is the most recent recorded state of service UNIT_9141_K? Compare observation dates.",
+      "documents": [
+        {
+          "id": "rdbb68bc65a02",
+          "text": "Component NOISE-9141-4 carries a Violet label."
+        },
+        {
+          "id": "re37455372c58",
+          "text": "Component UNIT_9141_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rfb2bef792646",
+          "text": "Component NOISE-9141-2 carries a Violet label."
+        },
+        {
+          "id": "r14465ba400f6",
+          "text": "Component NOISE-9141-7 carries a Violet label."
+        },
+        {
+          "id": "rbf27e56c16d9",
+          "text": "Component NOISE-9141-5 carries a Violet label."
+        },
+        {
+          "id": "rc06272a2c282",
+          "text": "Component NOISE-9141-0 carries a Violet label."
+        },
+        {
+          "id": "rc6364c58a586",
+          "text": "Component NOISE-9141-3 carries a Violet label."
+        },
+        {
+          "id": "r5dfb5076586f",
+          "text": "Component NOISE-9141-6 carries a Violet label."
+        },
+        {
+          "id": "r1254a8124f41",
+          "text": "Component NOISE-9141-1 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Enabled",
+        "b": "Disabled",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "release_rule-1-decisive_or_distractor",
+      "cluster_id": "release_rule-1",
+      "family": "release_rule",
+      "scenario": "decisive_or_distractor",
+      "query": "May build UNIT_9131_K be published? Publication is allowed exactly when its tests passed AND its review is approved. Either failed condition forbids publication.",
+      "documents": [
+        {
+          "id": "r58535008cf8d",
+          "text": "Component NOISE-9131-5 carries a Violet label."
+        },
+        {
+          "id": "r377f8b29872d",
+          "text": "Component NOISE-9131-7 carries a Violet label."
+        },
+        {
+          "id": "r6de7820d4287",
+          "text": "Component NOISE-9131-0 carries a Violet label."
+        },
+        {
+          "id": "rc99a9c6ce4ca",
+          "text": "Build UNIT_9131_K: review is not approved."
+        },
+        {
+          "id": "rd9b8851f0b0a",
+          "text": "Component NOISE-9131-3 carries a Violet label."
+        },
+        {
+          "id": "r98e0e73524db",
+          "text": "Component NOISE-9131-4 carries a Violet label."
+        },
+        {
+          "id": "r436373f6b366",
+          "text": "Component UNIT_9131_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r75b01a2f80ef",
+          "text": "Component NOISE-9131-1 carries a Violet label."
+        },
+        {
+          "id": "r98918b743122",
+          "text": "Component NOISE-9131-2 carries a Violet label."
+        },
+        {
+          "id": "r4d299fb245ae",
+          "text": "Component NOISE-9131-6 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Publication allowed",
+        "b": "Publication forbidden",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "storage-0-unsupported_query",
+      "cluster_id": "storage-0",
+      "family": "storage",
+      "scenario": "unsupported_query",
+      "query": "Please answer: In which cabinet is component OBJ-9100 stored?",
+      "documents": [
+        {
+          "id": "r52f576331436",
+          "text": "Component NOISE-9100-1 carries a Violet label."
+        },
+        {
+          "id": "r6cb63278a49e",
+          "text": "Component NOISE-9100-2 carries a Violet label."
+        },
+        {
+          "id": "rf601ba8c4108",
+          "text": "Component NOISE-9100-3 carries a Violet label."
+        },
+        {
+          "id": "rf6a0ff692ec6",
+          "text": "Component OBJ-9100-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r3208e3d553d7",
+          "text": "Component NOISE-9100-0 carries a Violet label."
+        },
+        {
+          "id": "r574341971347",
+          "text": "Component NOISE-9100-6 carries a Violet label."
+        },
+        {
+          "id": "r07b76c75fe75",
+          "text": "Component NOISE-9100-4 carries a Violet label."
+        },
+        {
+          "id": "r20f0626efc33",
+          "text": "Component NOISE-9100-5 carries a Violet label."
+        },
+        {
+          "id": "r385af868723e",
+          "text": "Component NOISE-9100-7 carries a Violet label."
+        },
+        {
+          "id": "reb662e6b1f54",
+          "text": "Component OBJ-9100 is stored in the Copper cabinet."
+        }
+      ],
+      "options": {
+        "a": "Copper cabinet",
+        "b": "Silver cabinet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "storage-1-complete_a",
+      "cluster_id": "storage-1",
+      "family": "storage",
+      "scenario": "complete_a",
+      "query": "In which cabinet is component UNIT_9101_K stored?",
+      "documents": [
+        {
+          "id": "rf498df425a9e",
+          "text": "Component NOISE-9101-3 carries a Violet label."
+        },
+        {
+          "id": "rf66bc142d0f9",
+          "text": "Component NOISE-9101-0 carries a Violet label."
+        },
+        {
+          "id": "r01f2bbf02c0f",
+          "text": "Component NOISE-9101-4 carries a Violet label."
+        },
+        {
+          "id": "rff61ea6745a4",
+          "text": "Component NOISE-9101-7 carries a Violet label."
+        },
+        {
+          "id": "r9f213b858e92",
+          "text": "Component UNIT_9101_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rd8d36be357b8",
+          "text": "Component NOISE-9101-2 carries a Violet label."
+        },
+        {
+          "id": "r9d1701cd2f35",
+          "text": "Component NOISE-9101-1 carries a Violet label."
+        },
+        {
+          "id": "r32406feb9124",
+          "text": "Component NOISE-9101-5 carries a Violet label."
+        },
+        {
+          "id": "re1dfec302ef1",
+          "text": "Component UNIT_9101_K is stored in the Copper cabinet."
+        },
+        {
+          "id": "r6e755c911b30",
+          "text": "Component NOISE-9101-6 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Copper cabinet",
+        "b": "Silver cabinet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "a",
+      "answerable": true
+    },
+    {
+      "id": "storage-1-unsupported_records",
+      "cluster_id": "storage-1",
+      "family": "storage",
+      "scenario": "unsupported_records",
+      "query": "In which cabinet is component UNIT_9101_K stored?",
+      "documents": [
+        {
+          "id": "rf498df425a9e",
+          "text": "Component NOISE-9101-3 carries a Violet label."
+        },
+        {
+          "id": "rf66bc142d0f9",
+          "text": "Component NOISE-9101-0 carries a Violet label."
+        },
+        {
+          "id": "r01f2bbf02c0f",
+          "text": "Component NOISE-9101-4 carries a Violet label."
+        },
+        {
+          "id": "rff61ea6745a4",
+          "text": "Component NOISE-9101-7 carries a Violet label."
+        },
+        {
+          "id": "r9f213b858e92",
+          "text": "Component UNIT_9101_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rd8d36be357b8",
+          "text": "Component NOISE-9101-2 carries a Violet label."
+        },
+        {
+          "id": "r9d1701cd2f35",
+          "text": "Component NOISE-9101-1 carries a Violet label."
+        },
+        {
+          "id": "r32406feb9124",
+          "text": "Component NOISE-9101-5 carries a Violet label."
+        },
+        {
+          "id": "re1dfec302ef1",
+          "text": "Recorded observation: Component UNIT_9101_K is stored in the Silver cabinet."
+        },
+        {
+          "id": "r6e755c911b30",
+          "text": "Component NOISE-9101-6 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Copper cabinet",
+        "b": "Silver cabinet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "release_rule-0-decisive_or_distractor",
+      "cluster_id": "release_rule-0",
+      "family": "release_rule",
+      "scenario": "decisive_or_distractor",
+      "query": "May build OBJ-9130 be published? Publication is allowed exactly when its tests passed AND its review is approved. Either failed condition forbids publication.",
+      "documents": [
+        {
+          "id": "ra1be4ed6bdbc",
+          "text": "Component NOISE-9130-5 carries a Violet label."
+        },
+        {
+          "id": "r05447843fd29",
+          "text": "Component NOISE-9130-1 carries a Violet label."
+        },
+        {
+          "id": "rb4fcd05bf745",
+          "text": "Component NOISE-9130-2 carries a Violet label."
+        },
+        {
+          "id": "r2814cbbdad34",
+          "text": "Component OBJ-9130-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r849adefea147",
+          "text": "Component NOISE-9130-4 carries a Violet label."
+        },
+        {
+          "id": "rbce3170c2852",
+          "text": "Component NOISE-9130-3 carries a Violet label."
+        },
+        {
+          "id": "r0fc69c675c93",
+          "text": "Component NOISE-9130-6 carries a Violet label."
+        },
+        {
+          "id": "re94e9edab9cf",
+          "text": "Build OBJ-9130: tests failed."
+        },
+        {
+          "id": "rf4409bc866cf",
+          "text": "Component NOISE-9130-7 carries a Violet label."
+        },
+        {
+          "id": "r24bb93bb24f4",
+          "text": "Component NOISE-9130-0 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Publication allowed",
+        "b": "Publication forbidden",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "b",
+      "answerable": true
+    },
+    {
+      "id": "release_rule-1-unknown_value",
+      "cluster_id": "release_rule-1",
+      "family": "release_rule",
+      "scenario": "unknown_value",
+      "query": "May build UNIT_9131_K be published? Publication is allowed exactly when its tests passed AND its review is approved. Either failed condition forbids publication.",
+      "documents": [
+        {
+          "id": "r58535008cf8d",
+          "text": "Component NOISE-9131-5 carries a Violet label."
+        },
+        {
+          "id": "r377f8b29872d",
+          "text": "Component NOISE-9131-7 carries a Violet label."
+        },
+        {
+          "id": "r6de7820d4287",
+          "text": "Component NOISE-9131-0 carries a Violet label."
+        },
+        {
+          "id": "re21bbd012997",
+          "text": "Build UNIT_9131_K: review is unknown."
+        },
+        {
+          "id": "rc99a9c6ce4ca",
+          "text": "Build UNIT_9131_K: tests passed."
+        },
+        {
+          "id": "rd9b8851f0b0a",
+          "text": "Component NOISE-9131-3 carries a Violet label."
+        },
+        {
+          "id": "r98e0e73524db",
+          "text": "Component NOISE-9131-4 carries a Violet label."
+        },
+        {
+          "id": "r436373f6b366",
+          "text": "Component UNIT_9131_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "r75b01a2f80ef",
+          "text": "Component NOISE-9131-1 carries a Violet label."
+        },
+        {
+          "id": "r98918b743122",
+          "text": "Component NOISE-9131-2 carries a Violet label."
+        },
+        {
+          "id": "r4d299fb245ae",
+          "text": "Component NOISE-9131-6 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Publication allowed",
+        "b": "Publication forbidden",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    },
+    {
+      "id": "label-1-conflict",
+      "cluster_id": "label-1",
+      "family": "label",
+      "scenario": "conflict",
+      "query": "Which color label belongs to component UNIT_9151_K? Match its exact identifier.",
+      "documents": [
+        {
+          "id": "r6616dc753cba",
+          "text": "Component NOISE-9151-0 carries a Violet label."
+        },
+        {
+          "id": "rc055075f3a7c",
+          "text": "Component NOISE-9151-4 carries a Violet label."
+        },
+        {
+          "id": "r059d32693a06",
+          "text": "Component NOISE-9151-2 carries a Violet label."
+        },
+        {
+          "id": "rb7491ca5b699",
+          "text": "Component UNIT_9151_K-COPY is stored in the Silver cabinet."
+        },
+        {
+          "id": "rf657e9184924",
+          "text": "Component NOISE-9151-6 carries a Violet label."
+        },
+        {
+          "id": "r519004cf81d2",
+          "text": "Component UNIT_9151_K carries a Violet label."
+        },
+        {
+          "id": "r93209bb93e5d",
+          "text": "Component NOISE-9151-1 carries a Violet label."
+        },
+        {
+          "id": "r52698ed8c171",
+          "text": "Component NOISE-9151-3 carries a Violet label."
+        },
+        {
+          "id": "r7c1cd6649fe2",
+          "text": "Component UNIT_9151_K carries a Orange label."
+        },
+        {
+          "id": "rf9ba92502bac",
+          "text": "Component NOISE-9151-7 carries a Violet label."
+        },
+        {
+          "id": "r6f98de3814bf",
+          "text": "Component NOISE-9151-5 carries a Violet label."
+        }
+      ],
+      "options": {
+        "a": "Orange",
+        "b": "Violet",
+        "unknown": "Insufficient evidence"
+      },
+      "expected": "unknown",
+      "answerable": false
+    }
+  ],
+  "dataset_sha256": "4668de1c1e5114cd493aa105ad2aa6a1af6aa39642a2d37e2cdb13bd8d7fc056"
+}
