@@ -7,9 +7,11 @@ useDefault = true
 # multilingual tokenizer files, verified against the downloaded file bytes.
 # Keep all default rules; exempt only this rule AND these exact result paths
 # AND an entire tokenizer-hash JSON line containing one of these exact values.
-[[allowlists]]
+[[rules]]
+id = "generic-api-key"
+
+[[rules.allowlists]]
 description = "Known public tokenizer file digests in frozen Dom benchmark manifests"
-targetRules = ["generic-api-key"]
 condition = "AND"
 paths = ['''^research/benchmarks/dom/results/(http_(cpu|cuda)\.v[12]\.plan|published_cuda\.v[12])\.json$''']
 regexTarget = "line"
