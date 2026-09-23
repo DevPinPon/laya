@@ -27,7 +27,7 @@ jobs:
           python-version: "3.12"
       - run: pip install torch --index-url https://download.pytorch.org/whl/cpu
       - run: pip install -e ".[serve]" pytest httpx
-      - run: python -m pytest tests/test_dom_adapter.py tests/test_dom_context.py tests/test_dom_requirements.py tests/test_dom_reasoning_benchmark.py tests/test_verified_cache.py tests/test_serve.py -q
+      - run: python -m pytest tests/test_codex_bridge.py tests/test_dom_adapter.py tests/test_dom_context.py tests/test_dom_requirements.py tests/test_dom_reasoning_benchmark.py tests/test_verified_cache.py tests/test_serve.py -q
 
   feishu-benchmark:
     name: Chinese benchmark audit (no models or API)

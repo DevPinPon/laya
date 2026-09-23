@@ -48,6 +48,10 @@ fast = ["tilelang>=0.1.14"]
 # `pip install laya[mcp]` adds the MCP stdio server (laya.mcp / the laya-mcp-server CLI).
 mcp = ["mcp>=2.2.0"]
 
+# Experimental Dom Codex bridge uses the separately tested MCP 1.x SDK.
+# Install in its own environment, rather than combining with the upstream mcp extra.
+codex-bridge = ["mcp==1.26.0"]
+
 onnx = ["onnx", "onnxruntime"]
 
 # `pip install laya[langchain]` adds the LangChain / LangGraph integrations (laya.integrations).
