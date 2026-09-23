@@ -110,6 +110,13 @@ and 4.2% on insufficient-information variants. Routing to the Reasoning Circuit
 expert still leaves Laya responsible for answering; it does not execute a solver
 or invoke a stronger model.
 
+A separate [verified-answer cache experiment](../research/benchmarks/dom/verified_cache_findings.v1.md)
+uses the actual Dom SQLite response store plus an experimental applicability
+gate. At 100,000 rows, structured lookup took 0.074 ms median and found all
+144 valid-hit opportunities, versus 34.3 ms and 78 hits with Laya matching.
+No wrong answers were accepted in that bounded test. Codex handoffs were returned
+but not executed; this is not an enabled Codex integration.
+
 The context and requirements modules were adapted from
 [DevPinPon/dom](https://github.com/DevPinPon/dom), under Apache-2.0. The context
 fallback and standalone packaging were changed for this fork. Laya attribution

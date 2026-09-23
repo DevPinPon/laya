@@ -12,6 +12,9 @@
 > found that broader reasoning remains unreliable. The model weights and
 > default prediction API are unchanged. The upstream documentation follows.
 
+> [Verified-answer cache experiment](research/benchmarks/dom/verified_cache_findings.v1.md):
+> direct structured reuse outperformed Laya matching on the bounded tested cases.
+
 **Multilingual, non-autoregressive System 1 decision engine.** Typed decisions over 100+ languages in a single forward pass — 33 ms — trained with reinforcement learning against strictly proper scoring rules (RLCD), with a router that picks the right checkpoint per request.
 
 <div align="center">
