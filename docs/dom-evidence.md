@@ -97,6 +97,19 @@ They share an author and templates with the implementation and do not establish
 independent real-world accuracy. Prior Dom experiments used another package
 version; their accuracy percentages are not promoted as this fork's results.
 
+The [operational reasoning evaluation](../research/benchmarks/dom/reasoning_findings.v1.md)
+tests the current fork through its actual local HTTP service using executable
+service-code oracles. Dom + Laya scored 50% on answerable questions and 0% on
+missing-information cases, matching an always-yes baseline overall. The six
+registered requirements grammars did not cover these questions. Broader
+operational reasoning is not reliable in this version.
+
+The same report also tests Dom's actual semantic MoE router in an isolated local
+connector. Its full-evidence, expert-guided arm scored 50% on answerable questions
+and 4.2% on insufficient-information variants. Routing to the Reasoning Circuit
+expert still leaves Laya responsible for answering; it does not execute a solver
+or invoke a stronger model.
+
 The context and requirements modules were adapted from
 [DevPinPon/dom](https://github.com/DevPinPon/dom), under Apache-2.0. The context
 fallback and standalone packaging were changed for this fork. Laya attribution

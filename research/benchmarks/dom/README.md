@@ -4,6 +4,10 @@ Measured on 2026-09-23 on this machine. These are actual local measurements,
 including HTTP for the service comparison. They are **not hosted-production
 latency, a T4 hardware replication, or a production reliability certification**.
 
+Accuracy is evaluated separately in the [operational reasoning report](reasoning_findings.v1.md).
+That test found unreliable reasoning outside the supported requirements grammars;
+the latency results below do not establish decision quality.
+
 ## Final measured results
 
 Warm, complete HTTP round trips on the English checkpoint:
